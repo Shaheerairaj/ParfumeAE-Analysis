@@ -2,18 +2,19 @@ import pandas as pd
 import requests
 import bs4
 import lxml
+import uuid
+
 
 def get_frag_types():
-
     '''
     Grabs the fragrance types from the main page of parfum.ae
     '''
 
-    result_main_page = requests.get("https://www.parfum.ae/fragrance/")
-    soup_main_page = bs4.BeautifulSoup(result_main_page.text,'lxml')
+    r = requests.get("https://www.parfum.ae/fragrance/")
+    s = bs4.BeautifulSoup(r.text, 'lxml')
 
     # Contains elements for frag types
-    elements = soup_main_page.select('.innerlistside')[0].select('a')
+    elements = s.select('.innerlistside')[0].select('a')
 
     frag_type_dict = {}
 
@@ -24,28 +25,39 @@ def get_frag_types():
     return frag_type_dict
 
 
-
-def prod_list_our_creations(frag_type_dict):
-
+def prod_list(url):
     '''
     Grabs the fragrace type dictionary containing the URLs for each fragrance type
     and searches for all products listed under the Our Creations type
     '''
 
-    result_frag_type = requests.get(frag_type_dict['Our Creations'])
-    soup_frag_type = bs4.BeautifulSoup(result_frag_type.text,'lxml')
+    r = requests.get(url)
+    s = bs4.BeautifulSoup(r.text, 'lxml')
 
-    last_page = soup_frag_type.select('.pagination')[0].select('li')[-1].select('a')[0]['href'].split('page-')[1][:-1]
-    prod_listing_dict = {}
+    if len(s.select(".pagination")) >= 1:
+        last_page = s.select('.pagination')[0].select(
+            'li')[-1].select('a')[0]['href'].split('page-')[1][:-1]
+        prod_listing_dict = {}
 
-    for page in range(1, int(last_page)+1):
-        url = frag_type_dict['Our Creations'] + '/page-' + str(page)
+        for page in range(1, int(last_page)+1):
+            url = url + '/page-' + str(page)
 
-        result_frag_type = requests.get(url)
-        soup_frag_type = bs4.BeautifulSoup(result_frag_type.text,'lxml')
+            r = requests.get(url)
+            s = bs4.BeautifulSoup(r.text, 'lxml')
 
-        h3_elements = soup_frag_type.select('.product__detail__list.mt-4 h3')
-        
+            h3_elements = s.select('.product__detail__list.mt-4 h3')
+
+            for h3 in h3_elements:
+                prod_listing_dict[h3.text[1:]] = h3.find('a')['href']
+
+    else:
+        prod_listing_dict = {}
+
+        r = requests.get(url)
+        s = bs4.BeautifulSoup(r.text, 'lxml')
+
+        h3_elements = s.select('.product__detail__list.mt-4 h3')
+
         for h3 in h3_elements:
             prod_listing_dict[h3.text[1:]] = h3.find('a')['href']
 
@@ -56,11 +68,13 @@ def prod_info_our_creations(prod_listing_dict):
 
     products = {}
 
-    for key,val in prod_listing_dict.items():
+    for key, val in prod_listing_dict.items():
         prod_result = requests.get(val)
-        prod_soup = bs4.BeautifulSoup(prod_result.text,'lxml')
-        
+        prod_soup = bs4.BeautifulSoup(prod_result.text, 'lxml')
+
         prod_dict = {}
+
+        prod_dict['id'] = uuid.uuid4()
 
         try:
             prod_dict['productTitle'] = prod_soup.select('.product-main__title')[0].text
@@ -74,22 +88,26 @@ def prod_info_our_creations(prod_listing_dict):
             prod_dict['hot'] = None
 
         try:
-            prod_dict['imitationOf'] = prod_soup.find('span', style='touch-action: manipulation; font-weight: bolder; font-size: 18px;').text
+            prod_dict['imitationOf'] = prod_soup.find(
+                'span', style='touch-action: manipulation; font-weight: bolder; font-size: 18px;').text
         except (AttributeError, TypeError):
             prod_dict['imitationOf'] = None
 
         try:
-            prod_dict['partOfFragrance'] = [element.text.replace('\xa0','').replace('This perfume is part of','') for element in prod_soup.select('p') if 'This perfume is part of' in element.text][0]
+            prod_dict['partOfFragrance'] = [element.text.replace('\xa0', '').replace(
+                'This perfume is part of', '') for element in prod_soup.select('p') if 'This perfume is part of' in element.text][0]
         except (IndexError, AttributeError):
             prod_dict['partOfFragrance'] = None
 
         try:
-            prod_dict['topNotes'] = [element.text.replace('Top Notes:\xa0', '') for element in prod_soup.select('p') if 'Top Notes:' in element.text][0]
+            prod_dict['topNotes'] = [element.text.replace(
+                'Top Notes:\xa0', '') for element in prod_soup.select('p') if 'Top Notes:' in element.text][0]
         except (IndexError, AttributeError):
             prod_dict['topNotes'] = None
 
         try:
-            prod_dict['middleNotes'] = [element.text.replace('Middle Notes:\xa0', '') for element in prod_soup.select('p') if 'Middle Notes:' in element.text][0]
+            prod_dict['middleNotes'] = [element.text.replace(
+                'Middle Notes:\xa0', '') for element in prod_soup.select('p') if 'Middle Notes:' in element.text][0]
         except (IndexError, AttributeError):
             prod_dict['middleNotes'] = None
 
@@ -99,7 +117,8 @@ def prod_info_our_creations(prod_listing_dict):
             prod_dict['baseNotes'] = None
 
         try:
-            prod_dict['concentration'] = [element.text.replace('Concentration:\xa0', '') for element in prod_soup.select('p') if 'Concentration' in element.text][0]
+            prod_dict['concentration'] = [element.text.replace(
+                'Concentration:\xa0', '') for element in prod_soup.select('p') if 'Concentration' in element.text][0]
         except (IndexError, AttributeError):
             prod_dict['concentration'] = None
 
@@ -109,10 +128,14 @@ def prod_info_our_creations(prod_listing_dict):
             prod_dict['overallRating'] = None
 
         try:
-            prod_dict['totalReviews'] = int(prod_soup.select('.stars__wrap')[0].text.replace('\n','').split(' ')[0])
+            prod_dict['totalReviews'] = int(prod_soup.select('.stars__wrap')[0].text.replace('\n', '').split(' ')[0])
         except (IndexError, AttributeError, ValueError):
             prod_dict['totalReviews'] = None
 
+        try:
+            prod_dict['price'] = prod_soup.select("div.product-price")[0].text
+        except (IndexError, AttributeError, ValueError):
+            prod_dict['price'] = None
 
         products[prod_dict['productTitle']] = prod_dict
 
