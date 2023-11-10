@@ -2,14 +2,19 @@ import pandas as pd
 import requests
 import bs4
 import lxml
-import uuid
+
+import logging
+import warnings
+warnings.filterwarnings("ignore")
+
+logging.basicConfig(filename='Parfum AE Web Scrapper Log.log', level=logging.INFO,
+format='%(asctime)s:%(levelname)s:%(message)s')
 
 
 def get_frag_types():
     '''
     Grabs the fragrance types from the main page of parfum.ae
     '''
-
     r = requests.get("https://www.parfum.ae/fragrance/")
     s = bs4.BeautifulSoup(r.text, 'lxml')
 
@@ -23,6 +28,9 @@ def get_frag_types():
         frag_type_dict[element.text] = element['href']
 
     return frag_type_dict
+
+
+
 
 
 def prod_list(url):
@@ -64,79 +72,134 @@ def prod_list(url):
     return prod_listing_dict
 
 
-def prod_info_our_creations(prod_listing_dict):
 
+
+
+def prod_info(prod_list_dict):
     products = {}
+    for frag_type, prod_list in prod_list_dict.items():
+        for key, val in prod_list.items():
+            r = requests.get(val)
+            s = bs4.BeautifulSoup(r.content, 'lxml')
+            prod_dict = {}
+    
+            if frag_type in ['Our Creations','Dahn Al Oud']:
+                try:
+                    id = s.select('[data-product_id]')[0].get('data-product_id')
+                    prod_dict['id'] = id
+                except:
+                    prod_dict['id'] = None
+                    logging.error(f"Error retrieving id for product: {key} at url: {val}")
+                try:
+                    prod_dict['name'] = s.select('.product-main__title')[0].text
+                except:
+                    prod_dict['title'] = None
+                    logging.error(f"Error retrieving title for product: {key} at url: {val}")
+    
+                try:
+                    prod_dict['stars'] = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
+                except:
+                    prod_dict['stars'] = None
+                    logging.error(f"Error retrieving stars for product: {key} at url: {val}")
+    
+                try:
+                    prod_dict['reviews'] = int(s.select('div.stars__wrap')[0].select('a')[0].text.replace(' reviews',''))
+                except:
+                    prod_dict['reviews'] = None
+                    logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
+    
+                try:
+                    prod_dict['price'] = float(s.select('span.product-js-price')[1].text.replace('AED ',''))
+                except:
+                    prod_dict['price'] = None
+                    logging.error(f"Error retrieving price for product: {key} at url: {val}")
+    
+                try:
+                    if len(s.select('.hot__product.product-main__hot')) > 0: prod_dict['hot']=True
+                except:
+                    prod_dict['hot'] = False
 
-    for key, val in prod_listing_dict.items():
-        prod_result = requests.get(val)
-        prod_soup = bs4.BeautifulSoup(prod_result.text, 'lxml')
+                try:
+                    prod_dict['reviews'] = product_reviews(id)
+                except:
+                    prod_dict['reviews'] = None
+                    logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
+    
+            else:
+                try:
+                    id = s.select('[data-product_id]')[0].get('data-product_id')
+                    prod_dict['id'] = id
+                except:
+                    prod_dict['id'] = None
+                    logging.error(f"Error retrieving id for product: {key} at url: {val}")
+                try:
+                    prod_dict['name'] = s.select('.title.page-title')[0].text
+                except:
+                    prod_dict['title'] = None
+                    logging.error(f"Error retrieving title for product: {key} at url: {val}")
+    
+                try:
+                    prod_dict['stars'] = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
+                except:
+                    prod_dict['stars'] = None
+                    logging.error(f"Error retrieving stars for product: {key} at url: {val}")
+    
+                try:
+                    prod_dict['reviews'] = int(s.select('div.review-links')[0].select('a')[0].text.replace(' reviews',''))
+                except:
+                    prod_dict['reviews'] = None
+                    logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
+    
+                try:
+                    prod_dict['price'] = float(s.select('div.product-price')[0].text.replace('AED ',''))
+                except:
+                    prod_dict['price'] = None
+                    logging.error(f"Error retrieving price for product: {key} at url: {val}")
+    
+                try:
+                    if len(s.select('.hot__product.product-main__hot')) > 0: prod_dict['hot']=True
+                except:
+                    prod_dict['hot'] = False
 
-        prod_dict = {}
-
-        prod_dict['id'] = uuid.uuid4()
-
-        try:
-            prod_dict['productTitle'] = prod_soup.select('.product-main__title')[0].text
-        except (IndexError, AttributeError):
-            prod_dict['productTitle'] = None
-
-        try:
-            prod_att_hot = prod_soup.select('.hot__product.product-main__hot')
-            prod_dict['hot'] = True if 'hot' in str(prod_att_hot) else False
-        except (IndexError, AttributeError):
-            prod_dict['hot'] = None
-
-        try:
-            prod_dict['imitationOf'] = prod_soup.find(
-                'span', style='touch-action: manipulation; font-weight: bolder; font-size: 18px;').text
-        except (AttributeError, TypeError):
-            prod_dict['imitationOf'] = None
-
-        try:
-            prod_dict['partOfFragrance'] = [element.text.replace('\xa0', '').replace(
-                'This perfume is part of', '') for element in prod_soup.select('p') if 'This perfume is part of' in element.text][0]
-        except (IndexError, AttributeError):
-            prod_dict['partOfFragrance'] = None
-
-        try:
-            prod_dict['topNotes'] = [element.text.replace(
-                'Top Notes:\xa0', '') for element in prod_soup.select('p') if 'Top Notes:' in element.text][0]
-        except (IndexError, AttributeError):
-            prod_dict['topNotes'] = None
-
-        try:
-            prod_dict['middleNotes'] = [element.text.replace(
-                'Middle Notes:\xa0', '') for element in prod_soup.select('p') if 'Middle Notes:' in element.text][0]
-        except (IndexError, AttributeError):
-            prod_dict['middleNotes'] = None
-
-        try:
-            prod_dict['baseNotes'] = [element.text.replace('Base Notes:\xa0', '') for element in prod_soup.select('p') if 'Base Notes:' in element.text][0].split(', ')
-        except (IndexError, AttributeError):
-            prod_dict['baseNotes'] = None
-
-        try:
-            prod_dict['concentration'] = [element.text.replace(
-                'Concentration:\xa0', '') for element in prod_soup.select('p') if 'Concentration' in element.text][0]
-        except (IndexError, AttributeError):
-            prod_dict['concentration'] = None
-
-        try:
-            prod_dict['overallRating'] = len(prod_soup.select('.stars__wrap')[0].find_all('i', class_='fas fa-star'))
-        except (IndexError, AttributeError):
-            prod_dict['overallRating'] = None
-
-        try:
-            prod_dict['totalReviews'] = int(prod_soup.select('.stars__wrap')[0].text.replace('\n', '').split(' ')[0])
-        except (IndexError, AttributeError, ValueError):
-            prod_dict['totalReviews'] = None
-
-        try:
-            prod_dict['price'] = prod_soup.select("div.product-price")[0].text
-        except (IndexError, AttributeError, ValueError):
-            prod_dict['price'] = None
-
-        products[prod_dict['productTitle']] = prod_dict
-
+                try:
+                    prod_dict['reviews'] = product_reviews(id)
+                except:
+                    prod_dict['reviews'] = None
+                    logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
+                    
+    
+            products[key] = prod_dict
+    
     return products
+
+
+
+
+
+def product_reviews(prod_id):
+    # Make request for the initial review page
+    url_main = f'https://www.parfum.ae/index.php?route=product/product/review&product_id={prod_id}&page=1'
+    r_main = requests.get(url_main)
+    s_main = bs4.BeautifulSoup(r_main.content, 'lxml')
+    
+    # Extract review data
+    reviews = []
+    page = 1
+    
+    while True:
+        url = f'https://www.parfum.ae/index.php?route=product/product/review&product_id={prod_id}&page={page}'
+        r = requests.get(url)
+        s = bs4.BeautifulSoup(r.content, 'lxml')
+    
+        for table in s.select("table"):
+            reviewer_name = table.select("strong")[0].text.replace('\xa0',' ')
+            reviewer_text = table.select("p")[0].text
+            reviewer_rating = len(table.select(".fa.fa-star.fa-stack-2x"))
+            reviews.append([reviewer_name, reviewer_text, reviewer_rating])
+    
+        if len(s.select('table')) == 0:
+            break
+    
+        page += 1
+
+    return reviews

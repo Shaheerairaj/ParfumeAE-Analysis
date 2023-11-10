@@ -1,0 +1,535 @@
+2023-11-08 21:23:46,445:INFO:Time taken to retrieve list of all products: 0:08:40.457245
+2023-11-08 21:54:23,088:ERROR:Error retrieving title for product: Our Creation of LV's Pur Oil (Non Alcoholic) 10ml at url: https://www.parfum.ae/lvs-pur-oil-non-alcoholic/
+2023-11-08 21:54:23,137:ERROR:Error retrieving reviews for product: Our Creation of LV's Pur Oil (Non Alcoholic) 10ml at url: https://www.parfum.ae/lvs-pur-oil-non-alcoholic/
+2023-11-08 21:54:23,175:ERROR:Error retrieving price for product: Our Creation of LV's Pur Oil (Non Alcoholic) 10ml at url: https://www.parfum.ae/lvs-pur-oil-non-alcoholic/
+2023-11-08 22:11:38,043:ERROR:Error retrieving reviews for product: Our Creation of Byredo's La Tulipe at url: https://www.parfum.ae/byredo-la-tulipe/
+2023-11-08 22:11:40,390:ERROR:Error retrieving reviews for product: Our Creation of TF's Mandarino Di Amalfi Acqua at url: https://www.parfum.ae/tom-ford-mandarino-di-amalfi-acqua/
+2023-11-08 22:11:42,613:ERROR:Error retrieving reviews for product: Our Creation of CH's Iris Empire  at url: https://www.parfum.ae/carolina-herrera-iris-empire/
+2023-11-08 22:11:44,753:ERROR:Error retrieving reviews for product: Our Creation of Vertus' Narcos'is at url: https://www.parfum.ae/narcos-is-vertus/
+2023-11-08 22:11:46,875:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Sable Nuit at url: https://www.parfum.ae/giorgio-armanis-sable-nuit/
+2023-11-08 22:11:49,337:ERROR:Error retrieving reviews for product: Our Creation of Boucheron's Rose d'Isparta at url: https://www.parfum.ae/boucherons-rose-disparta/
+2023-11-08 22:11:51,760:ERROR:Error retrieving reviews for product: Our Creation of LV's Nuit de Feu at url: https://www.parfum.ae/LV-Nuit-de-Feu/
+2023-11-08 22:11:54,131:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Aqua Allegoria Flora Salvaggia at url: https://www.parfum.ae/Guerlain-Aqua-Allegoria-Flora-Salvaggia/
+2023-11-08 22:11:56,740:ERROR:Error retrieving reviews for product: Our Creation of Parfums de Marly's Nisean at url: https://www.parfum.ae/Parfums-de-Marly-Nisean/
+2023-11-08 22:11:59,002:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Lady Million at url: https://www.parfum.ae/paco-rabanne-lady-million/
+2023-11-08 22:12:01,226:ERROR:Error retrieving reviews for product: Our Creation of Ormaie's Marque-Page at url: https://www.parfum.ae/ormaie-marque-page/
+2023-11-08 22:12:03,967:ERROR:Error retrieving reviews for product: Our Creation of Nishane's Ani at url: https://www.parfum.ae/nishane-ani/
+2023-11-08 22:12:06,459:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Terre d'Hermes Eau Givree at url: https://www.parfum.ae/hermes-terre-d-hermes-eau-givree/
+2023-11-08 22:12:08,867:ERROR:Error retrieving reviews for product: Our Creation of Zilinski & Rozan's Fiction at url: https://www.parfum.ae/zilinski-rozan-fiction/
+2023-11-08 22:12:11,244:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Guilty Absolute at url: https://www.parfum.ae/gucci-guilty-absolute/
+2023-11-08 22:12:13,568:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Envy Me at url: https://www.parfum.ae/gucci-envy-me/
+2023-11-08 22:12:16,015:ERROR:Error retrieving reviews for product: Our Creation of Jean Paul Gaultier's Le Male at url: https://www.parfum.ae/le-male-jean-paul-gaultier-le-male/
+2023-11-08 22:12:18,286:ERROR:Error retrieving reviews for product: Our Creation of Narciso Rodriguez' Pure Musc For Her at url: https://www.parfum.ae/narciso-rodriguez-pure-musc-for-her/
+2023-11-08 22:12:20,532:ERROR:Error retrieving reviews for product: Our Creation of Amouage's The Library Collection Opus IV at url: https://www.parfum.ae/amouage-the-library-collection-opus-iv/
+2023-11-08 22:12:22,856:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Bracken Women at url: https://www.parfum.ae/amouage-bracken-women/
+2023-11-08 22:12:25,411:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Honour Woman at url: https://www.parfum.ae/amouage-honour-woman/
+2023-11-08 22:12:27,920:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Forbidden Games at url: https://www.parfum.ae/kilian-forbidden-games/
+2023-11-08 22:12:30,267:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Nemer at url: https://www.parfum.ae/boadicea-the-victorious-nemer/
+2023-11-08 22:12:32,623:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Venenum Kiss at url: https://www.parfum.ae/ex-nihilo-venenum-kiss/
+2023-11-08 22:12:34,900:ERROR:Error retrieving reviews for product: Our Creation of Bond No. 9 Dubai Gold at url: https://www.parfum.ae/bond-no-new-york-dubai-gold-perfume/
+2023-11-08 22:12:37,022:ERROR:Error retrieving reviews for product: Our Creation of Creed's Royal Princess Oud at url: https://www.parfum.ae/creed-royal-princess-oud-millesime/
+2023-11-08 22:12:39,377:ERROR:Error retrieving reviews for product: Our Creation of Gucci's A Song For The Rose at url: https://www.parfum.ae/gucci-a-song-for-the-rose/
+2023-11-08 22:12:41,622:ERROR:Error retrieving reviews for product: Our Creation of Lv's Les Sables Roses  at url: https://www.parfum.ae/lv-les-sables-roses/
+2023-11-08 22:12:43,761:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Spicy Aoud at url: https://www.parfum.ae/montale-paris-spicy-aoud-edp/
+2023-11-08 22:12:45,922:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Afrodite at url: https://www.parfum.ae/tiziana-terenzi-afrodite-extrait-de-parfum/
+2023-11-08 22:12:48,277:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Journey Man at url: https://www.parfum.ae/amouage-journey-men/
+2023-11-08 22:12:50,601:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Rose Oud at url: https://www.parfum.ae/kilian-rose-oud/
+2023-11-08 22:12:52,879:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Black Musk at url: https://www.parfum.ae/montale-paris-black-musk/
+2023-11-08 22:12:55,102:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli's Tiger Oud at url: https://www.parfum.ae/roberto-cavalli-tiger-oud/
+2023-11-08 22:12:57,226:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Sweet Morphine at url: https://www.parfum.ae/ex-nihilo-sweet-morphine/
+2023-11-08 22:12:59,673:ERROR:Error retrieving reviews for product: Our Creation of Bond No 9 New York Oud  at url: https://www.parfum.ae/bond-no-9-new-york-oud/
+2023-11-08 22:13:02,663:ERROR:Error retrieving reviews for product: Our Creation of Creed's Viking at url: https://www.parfum.ae/creed-viking/
+2023-11-08 22:13:05,513:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Tropical Wood  at url: https://www.parfum.ae/montale-paris-tropical-wood-edp/
+2023-11-08 22:13:09,505:ERROR:Error retrieving reviews for product: Our Creation of Penhaligon's The Ingenue Cousin Flora at url: https://www.parfum.ae/penhaligons-the-ingenue-cousin-flora-edp/
+2023-11-08 22:13:12,228:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Andromeda  at url: https://www.parfum.ae/tiziana-terenzi-andromeda/
+2023-11-08 22:13:14,767:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Portrayal Man at url: https://www.parfum.ae/amouage-portrayal-men/
+2023-11-08 22:13:17,044:ERROR:Error retrieving reviews for product: Our Creation of Van Cleef & Arpels' Rose Rouge at url: https://www.parfum.ae/van-cleef-arpels-rose-rouge/
+2023-11-08 22:13:19,918:ERROR:Error retrieving reviews for product: Our Creation of Elie Saab's Nuit Noor at url: https://www.parfum.ae/elie-saab-nuit-noor/
+2023-11-08 22:13:22,195:ERROR:Error retrieving reviews for product: Our Creation of Hermes' L'ambre Des Mervelles Limited Collector at url: https://www.parfum.ae/hermes-lambre-des-mervelles-limited-collector-women/
+2023-11-08 22:13:24,318:ERROR:Error retrieving reviews for product: Our Creation of MFK's Aqua Celestia at url: https://www.parfum.ae/maison-francis-aqua-celestia/
+2023-11-08 22:13:26,510:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Porpora at url: https://www.parfum.ae/tiziana-terenzi-porpora/
+2023-11-08 22:13:28,787:ERROR:Error retrieving reviews for product: Our Creation of CH's 212 VIP Men Wild Party at url: https://www.parfum.ae/carolina-herrera-vip-men-wild-party-for-men/
+2023-11-08 22:13:31,296:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Chance Eau Vive at url: https://www.parfum.ae/chanel-chance-eau-vive-for-women/
+2023-11-08 22:13:33,436:ERROR:Error retrieving reviews for product: Our Creation of Boadicea The Victorious' Green Sapphire at url: https://www.parfum.ae/boadicea-the-victorios-green-sapphire/
+2023-11-08 22:13:35,713:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Xeryus Rouge at url: https://www.parfum.ae/givenchy-xeryus-rouge/
+2023-11-08 22:13:38,036:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Neroli Outrenoir at url: https://www.parfum.ae/guerlain-neroli-outrenoir/
+2023-11-08 22:13:40,624:ERROR:Error retrieving reviews for product: Our Creation of Jean Paul Gaulter's Scandal at url: https://www.parfum.ae/jean-paul-gaulter-scandal/
+2023-11-08 22:13:43,201:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Black Gold at url: https://www.parfum.ae/mancera-black-gold/
+2023-11-08 22:13:46,228:ERROR:Error retrieving reviews for product: Our Creation of Narciso Rodriguez' Amber Musc at url: https://www.parfum.ae/narciso-rodriguez-amber-musc/
+2023-11-08 22:13:48,853:ERROR:Error retrieving reviews for product: Our Creation of TF's White Suede at url: https://www.parfum.ae/tom-ford-white-suede/
+2023-11-08 22:13:51,438:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Very Sexy at url: https://www.parfum.ae/victoria-secret-very-sexy/
+2023-11-08 22:13:54,126:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Pure XS Men at url: https://www.parfum.ae/paco-rabanne-pure-xs-men/
+2023-11-08 22:13:56,418:ERROR:Error retrieving reviews for product: Our Creation of Penhaligon’s Cairo at url: https://www.parfum.ae/penhaligons-cairo/
+2023-11-08 22:13:58,780:ERROR:Error retrieving reviews for product: Our Creation of Memo's Oriental Leather at url: https://www.parfum.ae/memo-oriental-leather/
+2023-11-08 22:14:01,088:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Coralia at url: https://www.parfum.ae/bvlgari-coralia/
+2023-11-08 22:14:03,612:ERROR:Error retrieving reviews for product: Our Creation of Frederic Malle's Superstitious at url: https://www.parfum.ae/our-creation-of-superstitious-by-frederic-malle/
+2023-11-08 22:14:06,539:ERROR:Error retrieving reviews for product: Our Creation of TF's Rose Prick at url: https://www.parfum.ae/tfs-rose-prick/
+2023-11-08 22:14:08,799:ERROR:Error retrieving reviews for product: Our Creation of Maison Margiela's Replica Across Sands at url: https://www.parfum.ae/maison-margiela-replica-across-sands/
+2023-11-08 22:14:10,969:ERROR:Error retrieving reviews for product: Our Creation of Kilian's A Kiss from a Rose at url: https://www.parfum.ae/kilians-a-kiss-from-a-rose/
+2023-11-08 22:14:13,128:ERROR:Error retrieving reviews for product: Our Creation of MFK's Aqua Universalis Cologne Forte at url: https://www.parfum.ae/mfk-aqua-universalis-cologne-forte/
+2023-11-08 22:14:15,471:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Apple Brandy on the Rocks at url: https://www.parfum.ae/Kilian-Apple-Brandy-on-the-Rocks/
+2023-11-08 22:14:17,850:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Lady Million Fabulous at url: https://www.parfum.ae/Paco-Rabanne-Lady-Million-Fabulous/
+2023-11-08 22:14:20,210:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Si Passione Eclat de Parfum at url: https://www.parfum.ae/giorgio-armani-si-passione-eclat-de-parfum/
+2023-11-08 22:14:22,518:ERROR:Error retrieving reviews for product: Our Creation of TF's Ebene Fume at url: https://www.parfum.ae/tf-ebene-fume/
+2023-11-08 22:14:24,657:ERROR:Error retrieving reviews for product: Our Creation of Rosendo Mateu Olfactive Expressions' Mateu N°6 Jasmin, Sandalwood, Oriental Musk at url: https://www.parfum.ae/rosendo-mateu-olfactiv-expressions-mateu-n6-jasmin-sandalwood-oriental-musk/
+2023-11-08 22:14:26,897:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Eyes Closed at url: https://www.parfum.ae/byredo-s-eyes-closed/
+2023-11-08 22:14:29,020:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Red Tobacco at url: https://www.parfum.ae/mancera-s-red-tobacco/
+2023-11-08 22:14:31,150:ERROR:Error retrieving reviews for product: Our Creation of Trussardi's Trussardi Uomo at url: https://www.parfum.ae/trussardi-trussardi-uomo/
+2023-11-08 22:14:33,358:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Hot Couture at url: https://www.parfum.ae/givenchy-hot-couture/
+2023-11-08 22:14:35,696:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Bombshell at url: https://www.parfum.ae/victorias-secret-bombshell/
+2023-11-08 22:14:38,251:ERROR:Error retrieving reviews for product: Our Creation of D&G's Velvet Incenso at url: https://www.parfum.ae/dolce-gabbana-velvet-incenso/
+2023-11-08 22:14:40,528:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Jasmin Noir at url: https://www.parfum.ae/bvlgari-jasmin-noir/
+2023-11-08 22:14:42,790:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Dia Woman at url: https://www.parfum.ae/amouage-dia-pour-femme/
+2023-11-08 22:14:45,045:ERROR:Error retrieving reviews for product: Our Creation of CH's Ch Men at url: https://www.parfum.ae/carolina-herrera-ch-men/
+2023-11-08 22:14:47,121:ERROR:Error retrieving reviews for product: Our Creation of CK's Euphoria Pure Gold at url: https://www.parfum.ae/calvin-klein-euphoria-pure-gold/
+2023-11-08 22:14:49,345:ERROR:Error retrieving reviews for product: Our Creation of Acqua Di Parma's Note Di Colonia 1 at url: https://www.parfum.ae/acqua-di-parma-note-di-colonia/
+2023-11-08 22:14:51,754:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Armani Prive Bleu Turquoise at url: https://www.parfum.ae/giorgio-armani-prive-bleu-turquoise/
+2023-11-08 22:14:54,077:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Goldea The Roman Night at url: https://www.parfum.ae/bvlgari-goldea-the-roman-night-edp/
+2023-11-08 22:14:56,285:ERROR:Error retrieving reviews for product: Our Creation of Cartier's Oud & Musc  at url: https://www.parfum.ae/cartier-oud-musc/
+2023-11-08 22:14:58,625:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Eaudemoiselle Absolu D'Oranger at url: https://www.parfum.ae/givenchy-eaudemoiselle-absolu-d-oranger/
+2023-11-08 22:15:00,869:ERROR:Error retrieving reviews for product: Our Creation of Gucci Guilty Absolute Pour Femme at url: https://www.parfum.ae/gucci-guilty-absolute-pour-femme/
+2023-11-08 22:15:03,864:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Mimosa & Cardamom at url: https://www.parfum.ae/jo-malone-london-mimosa-cardamom/
+2023-11-08 22:15:06,436:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Aoud Line  at url: https://www.parfum.ae/mancera-aoud-line/
+2023-11-08 22:15:09,045:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Honey Aoud  at url: https://www.parfum.ae/montale-paris-honey-aoud/
+2023-11-08 22:15:11,508:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli's Uomo at url: https://www.parfum.ae/roberto-cavalli-uomo/
+2023-11-08 22:15:13,996:ERROR:Error retrieving reviews for product: Our Creation of Versace's Versace Man Eau Fraiche at url: https://www.parfum.ae/versace-eau-fraiche-edt/
+2023-11-08 22:15:16,512:ERROR:Error retrieving reviews for product: Our Creation of Xerjoff's Fars at url: https://www.parfum.ae/xerjoff-fars/
+2023-11-08 22:15:18,836:ERROR:Error retrieving reviews for product: Our Creation of Prada's Babylon  at url: https://www.parfum.ae/prada-babylon/
+2023-11-08 22:15:21,144:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Fun Things Always Happen After Sunset at url: https://www.parfum.ae/kilian-fun-things-always-happen-after-sunset/
+2023-11-08 22:15:23,904:ERROR:Error retrieving reviews for product: Our Creation of Lv's Au Hasard at url: https://www.parfum.ae/lv-au-hasard/
+2023-11-08 22:15:26,347:ERROR:Error retrieving reviews for product: Our Creation of Memo's Marfa at url: https://www.parfum.ae/memo-marfa/
+2023-11-08 22:15:28,539:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's French Affair at url: https://www.parfum.ae/ex-nihilo-french-affair/
+2023-11-08 22:15:30,917:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Explorer  at url: https://www.parfum.ae/boadicea-the-victorious-explorer/
+2023-11-08 22:15:33,010:ERROR:Error retrieving reviews for product: Our Creation of Elie Saab's Essence No. 4 Oud at url: https://www.parfum.ae/elie-saab-essence-no-oud/
+2023-11-08 22:15:35,233:ERROR:Error retrieving reviews for product: Our Creation of LV's Apoge at url: https://www.parfum.ae/lv-apoge/
+2023-11-08 22:15:37,574:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Aoud Leather at url: https://www.parfum.ae/montale-paris-aoud-leather-edp/
+2023-11-08 22:15:39,751:ERROR:Error retrieving reviews for product: Our Creation of PDM's Galloway at url: https://www.parfum.ae/parfums-de-marly-galloway-edp/
+2023-11-08 22:15:41,974:ERROR:Error retrieving reviews for product: Our Creation of Thameen's Noorolain Taif  at url: https://www.parfum.ae/thameen-noorolain-taif/
+2023-11-08 22:15:44,236:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Rolling In Love at url: https://www.parfum.ae/kilian-rolling-in-love/
+2023-11-08 22:15:46,391:ERROR:Error retrieving reviews for product: Our Creation of Burberry's My Burberry Blush at url: https://www.parfum.ae/burberry-my-burberry-blush/
+2023-11-08 22:15:48,614:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Gucci Rush at url: https://www.parfum.ae/gucci-rush/
+2023-11-08 22:15:50,959:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Killing Me Slowly at url: https://www.parfum.ae/kilian-killing-me-slowly/
+2023-11-08 22:15:53,301:ERROR:Error retrieving reviews for product: Our Creation of Sospiro's Ensemble  at url: https://www.parfum.ae/sospiro-ensemble/
+2023-11-08 22:15:55,539:ERROR:Error retrieving reviews for product: Our Creation of Lancome's Tresor L'Absolu at url: https://www.parfum.ae/lancome-tresor-absolu/
+2023-11-08 22:15:58,002:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Guilty Black Pour Homme at url: https://www.parfum.ae/Gucci-Guilty-Black-Pour-Homme/
+2023-11-08 22:16:00,346:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Play For Men at url: https://www.parfum.ae/givenchy-play-for-men/
+2023-11-08 22:16:02,864:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Scandal Pour Homme at url: https://www.parfum.ae/roja-dove-scandal-pour-homme-edp/
+2023-11-08 22:16:05,155:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Musc Shamal Prive  at url: https://www.parfum.ae/armani-musc-shamal-prive/
+2023-11-08 22:16:07,633:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Acqua Di Gio Absolu Instinct at url: https://www.parfum.ae/giorgio-armani-acqua-di-gio-absolu-instinct/
+2023-11-08 22:16:09,686:ERROR:Error retrieving reviews for product: Our Creation of Xerjoff's Amber Star at url: https://www.parfum.ae/xerjoff-amber-star/
+2023-11-08 22:16:11,908:ERROR:Error retrieving reviews for product: Our Creation of Initio Parfums Prive's High Frequency at url: https://www.parfum.ae/initio-parfums-prives-high-frequency/
+2023-11-08 22:16:14,214:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Starry Nights at url: https://www.parfum.ae/montale-paris-starry-nights/
+2023-11-08 22:16:16,436:ERROR:Error retrieving reviews for product: Our Creation of Xerjoff's Casamorati 1888 at url: https://www.parfum.ae/xerjoff-casamorati/
+2023-11-08 22:16:18,710:ERROR:Error retrieving reviews for product: Our Creation of Luxodor Smoke at url: https://www.parfum.ae/luxodor-smoke-30ml/
+2023-11-08 22:16:21,555:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Lady Million Prive at url: https://www.parfum.ae/paco-rabanne-lady-million-prive-edp/
+2023-11-08 22:16:24,036:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Omnia Paraiba at url: https://www.parfum.ae/bvlgari-omnia-paraiba-edt/
+2023-11-08 22:16:26,501:ERROR:Error retrieving reviews for product: Our Creation of CH's Good Girl Velvet Fatale at url: https://www.parfum.ae/carolina-herrera-good-girl-velvet-fatale/
+2023-11-08 22:16:28,840:ERROR:Error retrieving reviews for product: Our Creation of D&G's The One Desire at url: https://www.parfum.ae/dolce-gabbana-the-one-desire-women/
+2023-11-08 22:16:31,223:ERROR:Error retrieving reviews for product: Our Creation of Salvatore Ferragamo's Emozione  at url: https://www.parfum.ae/salvatore-ferragamo-emozione/
+2023-11-08 22:16:33,426:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Un Jardin Apres La Mousson at url: https://www.parfum.ae/hermes-un-jardin-apres-la-mousson/
+2023-11-08 22:16:35,679:ERROR:Error retrieving reviews for product: Our Creation of Lancome's Jasmins Marzipane at url: https://www.parfum.ae/lancome-jasmins-marzipane/
+2023-11-08 22:16:38,119:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Aoud Night at url: https://www.parfum.ae/montale-paris-aoud-night/
+2023-11-08 22:16:40,660:ERROR:Error retrieving reviews for product: Our Creation of TF's Noir De Noir at url: https://www.parfum.ae/tom-ford-noir-de-noir/
+2023-11-08 22:16:43,260:ERROR:Error retrieving reviews for product: Our Creation of Van Cleef & Arpels' Ambre Imperial at url: https://www.parfum.ae/van-cleef-arpels-ambre-imperial/
+2023-11-08 22:16:45,759:ERROR:Error retrieving reviews for product: Our Creation of Xerjoff's Gao at url: https://www.parfum.ae/xerjoff-gao/
+2023-11-08 22:16:48,303:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Yes I Was Madly In Love, But that was Yesterday at url: https://www.parfum.ae/kilians-yes-i-was-madly-in-love-but-that-was-yesterday/
+2023-11-08 22:16:50,683:ERROR:Error retrieving reviews for product: Our Creation of Bond No 9 Dubai Indigo at url: https://www.parfum.ae/bond-no-dubai-indigo-perfume/
+2023-11-08 22:16:53,181:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Aoud Vanille  at url: https://www.parfum.ae/mancera-aoud-vanille/
+2023-11-08 22:16:55,678:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Le Lion de Chanel at url: https://www.parfum.ae/chanels-le-lion-de-chanel/
+2023-11-08 22:16:58,463:ERROR:Error retrieving reviews for product: Our Creation of LV's Pur at url: https://www.parfum.ae/lvs-pur/
+2023-11-08 22:17:00,791:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Oligarch at url: https://www.parfum.ae/roja-doves-oligarch/
+2023-11-08 22:17:03,620:ERROR:Error retrieving reviews for product: Our Creation of CH's 212 Heroes at url: https://www.parfum.ae/chs-212-heroes/
+2023-11-08 22:17:06,278:ERROR:Error retrieving reviews for product: Our Creation of MFK's Aqua Vitae Forte  at url: https://www.parfum.ae/mfk-aqua-vitae-forte/
+2023-11-08 22:17:08,822:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Flower of Immortality at url: https://www.parfum.ae/Kilian-Flower-of-Immortality/
+2023-11-08 22:17:12,023:ERROR:Error retrieving reviews for product: Our Creation of Parfums de Marly's Oriana at url: https://www.parfum.ae/Parfums-de-Marly-Oriana/
+2023-11-08 22:17:14,599:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Magenta Tanzanite at url: https://www.parfum.ae/giorgio-armani-magenta-tanzanite/
+2023-11-08 22:17:17,103:ERROR:Error retrieving reviews for product: Our Creation of Penhaligon's The World According to Arthur at url: https://www.parfum.ae/penhaligon-the-world-according-to-arthur/
+2023-11-08 22:17:19,903:ERROR:Error retrieving reviews for product: Our Creation of Nishane's Ambra Calabria at url: https://www.parfum.ae/nishane-ambra-calabria/
+2023-11-08 22:17:22,413:ERROR:Error retrieving reviews for product: Our Creation of Versace's Safran Royal at url: https://www.parfum.ae/versace-s-safran-royal/
+2023-11-08 22:17:24,995:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Tears from the Moon at url: https://www.parfum.ae/gucci-tears-from-the-moon/
+2023-11-08 22:17:28,535:ERROR:Error retrieving reviews for product: Our Creation of CH's Good Girl Blush at url: https://www.parfum.ae/ch-good-girl-blush/
+2023-11-08 22:17:31,014:ERROR:Error retrieving reviews for product: Our Creation of D&G's Rose The One  at url: https://www.parfum.ae/dg-rose-the-one/
+2023-11-08 22:17:33,243:ERROR:Error retrieving reviews for product: Our Creation of Mont Blanc's Legend at url: https://www.parfum.ae/mont-blanc-legend/
+2023-11-08 22:17:36,365:ERROR:Error retrieving reviews for product: Our Creation of Viktor & Rolf's Spicebomb at url: https://www.parfum.ae/viktor-rolf-spice-bomb/
+2023-11-08 22:17:38,683:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Lady Million Lucky at url: https://www.parfum.ae/paco-rabanne-lady-million-lucky/
+2023-11-08 22:17:40,758:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Rose Caramel at url: https://www.parfum.ae/victorias-secret-rose-caramel/
+2023-11-08 22:17:43,247:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Memoir Woman at url: https://www.parfum.ae/amouage-memoir/
+2023-11-08 22:17:45,635:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Biarritz  at url: https://www.parfum.ae/chanel-paris-biarritz-edt/
+2023-11-08 22:17:47,931:ERROR:Error retrieving reviews for product: Our Creation of Elie Saab's Essence No. 3 Ambre  at url: https://www.parfum.ae/elie-essence-no-ambre/
+2023-11-08 22:17:50,152:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's L'ange Noir at url: https://www.parfum.ae/givenchy-lange-noir/
+2023-11-08 22:17:52,310:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Oud Essentiel at url: https://www.parfum.ae/guerlain-oud-essentiel/
+2023-11-08 22:17:54,538:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Eternal Oud at url: https://www.parfum.ae/kilian-eternal-oud/
+2023-11-08 22:17:56,844:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Pink Roses at url: https://www.parfum.ae/mancera-pink-rose-women/
+2023-11-08 22:17:59,195:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Black XS L'Exces for Her at url: https://www.parfum.ae/paco-rabanne-black-xs-lexces-woman/
+2023-11-08 22:18:01,442:ERROR:Error retrieving reviews for product: Our Creation of TF's Fleur De Portofino at url: https://www.parfum.ae/tom-ford-fleur-de-portofino/
+2023-11-08 22:18:04,778:ERROR:Error retrieving reviews for product: Our Creation of Trussardi's Uomo Red at url: https://www.parfum.ae/trussardi-uomo-red/
+2023-11-08 22:18:07,137:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Seduction Dark Orchid  at url: https://www.parfum.ae/victoria-secret-seduction-dark-orchid/
+2023-11-08 22:18:09,555:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Orion at url: https://www.parfum.ae/tiziana-terenzi-orion-extrait-de-parfum/
+2023-11-08 22:18:11,810:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Amber Sapphire at url: https://www.parfum.ae/boadicea-the-victorious-amber-sapphire/
+2023-11-08 22:18:14,162:ERROR:Error retrieving reviews for product: Our Creation of D&G's Velvet Pure for Women at url: https://www.parfum.ae/dolce-gabbana-velvet-pure-for-women/
+2023-11-08 22:18:16,495:ERROR:Error retrieving reviews for product: Our Creation of Lancome's Maison L'autre Oud  at url: https://www.parfum.ae/lancome-maison-lautre-oud/
+2023-11-08 22:18:18,737:ERROR:Error retrieving reviews for product: Our Creation of Memo's Moroccan Leather  at url: https://www.parfum.ae/memo-moroccan-leather/
+2023-11-08 22:18:21,290:ERROR:Error retrieving reviews for product: Our Creation of Stephane Humbert Lucas Mortal Skin at url: https://www.parfum.ae/stephane-humbert-lucas-mortal-skin-edp/
+2023-11-08 22:18:23,766:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Explicite at url: https://www.parfum.ae/ex-nihilo-explicite/
+2023-11-08 22:18:26,083:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Mon Guerlain Eau De Parfum Intense at url: https://www.parfum.ae/guerlain-mon-guerlain-eau-de-parfum-intense/
+2023-11-08 22:18:29,082:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Honour Man at url: https://www.parfum.ae/amouage-honour-men/
+2023-11-08 22:18:31,549:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Sublime Essence Oud at url: https://www.parfum.ae/ex-nihilo-sublime-essence-oud/
+2023-11-08 22:18:34,279:ERROR:Error retrieving reviews for product: Our Creation of Initio Parfums Prive's Psychedelic Love at url: https://www.parfum.ae/initio-parfums-prives-psychedelic-love/
+2023-11-08 22:18:36,710:ERROR:Error retrieving reviews for product: Our Creation of Memo's Tamarindo at url: https://www.parfum.ae/memo-tamarindo/
+2023-11-08 22:18:38,949:ERROR:Error retrieving reviews for product: Our Creation of Luxodor GyrFalcon The White Phase at url: https://www.parfum.ae/luxodor-gyrfalcon-the-white-phase/
+2023-11-08 22:18:41,657:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Idylle  at url: https://www.parfum.ae/guerlain-idylle/
+2023-11-08 22:18:44,017:ERROR:Error retrieving reviews for product: Our Creation of D&G's Dolce Rosa Excelsa at url: https://www.parfum.ae/dolce-gabbana-dolce-rosa-excelsa-edp/
+2023-11-08 22:18:46,797:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Code Satin at url: https://www.parfum.ae/giorgio-armani-code-satine/
+2023-11-08 22:18:49,356:ERROR:Error retrieving reviews for product: Our Creation of TF's Patchouli Absolu at url: https://www.parfum.ae/tom-ford-patchouli-absolu/
+2023-11-08 22:18:52,009:ERROR:Error retrieving reviews for product: Our Creation of Versace's Bright Crystal Absolu at url: https://www.parfum.ae/versace-bright-crystal-absolu/
+2023-11-08 22:18:54,639:ERROR:Error retrieving reviews for product: Our Creation of YSL's M7 Oud Absolu at url: https://www.parfum.ae/yves-saint-laurent-m-oud-absolu/
+2023-11-08 22:18:57,079:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Nuwa at url: https://www.parfum.ae/roja-parfum-nuwa/
+2023-11-08 22:19:00,394:ERROR:Error retrieving reviews for product: Our Creation of MFK's L'Homme A la Rose at url: https://www.parfum.ae/maison-francis-lhomme-a-la-rose/
+2023-11-08 22:19:04,797:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Solar at url: https://www.parfum.ae/boadicea-the-victorious-solar/
+2023-11-08 22:19:08,176:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Devil Tender at url: https://www.parfum.ae/our-creation-of-devil-tender-by-ex-nihilo/
+2023-11-08 22:19:11,317:ERROR:Error retrieving reviews for product: Our Creation of Le Labo's The Noir 29 at url: https://www.parfum.ae/le-labo-the-noir-29/
+2023-11-08 22:19:13,669:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Vendomania at url: https://www.parfum.ae/ex-nihilos-vendomania/
+2023-11-08 22:19:16,315:ERROR:Error retrieving reviews for product: Our Creation of Kenzo's L'Eau Par Kenzo Pour Femme at url: https://www.parfum.ae/kenzo-leau-par-kenzo-pour-femme/
+2023-11-08 22:19:20,169:ERROR:Error retrieving reviews for product: Our Creation of Dior's Eden-Roc at url: https://www.parfum.ae/dior-eden-roc/
+2023-11-08 22:19:23,125:ERROR:Error retrieving reviews for product: Our Creation of Memo Paris' Mallorcan Almond Oud at url: https://www.parfum.ae/Memo-Paris-Mallorcan-Almond-Oud/
+2023-11-08 22:19:25,617:ERROR:Error retrieving reviews for product: Our Creation of MFK's Masculin Pluriel at url: https://www.parfum.ae/MFK-Masculin-Pluriel/
+2023-11-08 22:19:28,146:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Tangy Rhubarb Cologne at url: https://www.parfum.ae/jo-malone-london-tangy-rhubarb-cologne/
+2023-11-08 22:19:30,430:ERROR:Error retrieving reviews for product: Our Creation of Al - Jazeera's Magic at url: https://www.parfum.ae/al-jazeera-magic/
+2023-11-08 22:19:32,904:ERROR:Error retrieving reviews for product: Our Creation of MFK's 724 at url: https://www.parfum.ae/mfk-724/
+2023-11-08 22:19:35,443:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Arabians at url: https://www.parfum.ae/montale-paris-arabians/
+2023-11-08 22:19:37,847:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Armani Prive Oud Royal at url: https://www.parfum.ae/giorgio-armani-prive-oud-royal/
+2023-11-08 22:19:40,939:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Lyric Women at url: https://www.parfum.ae/amouage-lyric-women/
+2023-11-08 22:19:43,924:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Accord Oud  at url: https://www.parfum.ae/byredo-accord-oud/
+2023-11-08 22:19:46,346:ERROR:Error retrieving reviews for product: Our Creation of Diptyque's Philosykos  at url: https://www.parfum.ae/diptyque-philosykos/
+2023-11-08 22:19:48,978:ERROR:Error retrieving reviews for product: Our Creation of Initio Parfums Prive's Divine Attraction at url: https://www.parfum.ae/initio-divine-attraction/
+2023-11-08 22:19:51,715:ERROR:Error retrieving reviews for product: Our Creation of LV's Rose Des Vents  at url: https://www.parfum.ae/lv-rose-des-vents/
+2023-11-08 22:19:54,226:ERROR:Error retrieving reviews for product: Our Creation of Nasomatto's China White at url: https://www.parfum.ae/nasomatto-china-white/
+2023-11-08 22:19:56,653:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Elixir Essence de Parfum  at url: https://www.parfum.ae/roja-elixir-essencede-parfum/
+2023-11-08 22:19:59,389:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Draco at url: https://www.parfum.ae/tiziana-terenzi-draco-extrait-de-parfum/
+2023-11-08 22:20:02,134:ERROR:Error retrieving reviews for product: Our Creation of Orchidee Vanille at url: https://www.parfum.ae/van-cleef-arpels-orchidee-vanille/
+2023-11-08 22:20:05,004:ERROR:Error retrieving reviews for product: Our Creation of Escentric Molecules' Molecule 01 at url: https://www.parfum.ae/escentric-molecules-molecule-no-01/
+2023-11-08 22:20:08,693:ERROR:Error retrieving reviews for product: Our Creation of Hugo Boss' Boss Bottled at url: https://www.parfum.ae/hugo-boss-bottled/
+2023-11-08 22:20:11,058:ERROR:Error retrieving reviews for product: Our Creation of MFK's Oud at url: https://www.parfum.ae/maison-francis-kurkdjia-oud/
+2023-11-08 22:20:13,666:ERROR:Error retrieving reviews for product: Our Creation of TF's Vanille Fatale at url: https://www.parfum.ae/tom-ford-vanille-fatale/
+2023-11-08 22:20:16,211:ERROR:Error retrieving reviews for product: Our Creation of Luxodor GyrFalcon The Dark Morph at url: https://www.parfum.ae/luxodor-gyrfalcon-the-dark-morph/
+2023-11-08 22:20:18,750:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Jubilation XXV  at url: https://www.parfum.ae/amouage-jubilation-for-men/
+2023-11-08 22:20:21,447:ERROR:Error retrieving reviews for product: Our Creation of Creed's Himalaya at url: https://www.parfum.ae/creed-himalaya/
+2023-11-08 22:20:23,772:ERROR:Error retrieving reviews for product: Our Creation of Montale's Aoud Queen Roses at url: https://www.parfum.ae/montale-aoud-queen-roses/
+2023-11-08 22:20:26,541:ERROR:Error retrieving reviews for product: Our Creation of PDM's Shagya at url: https://www.parfum.ae/parfums-de-marly-shagya/
+2023-11-08 22:20:29,186:ERROR:Error retrieving reviews for product: Our Creation of MFK's Oud Satin Mood at url: https://www.parfum.ae/maison-francis-kurkdjian-oud-satin-mood/
+2023-11-08 22:20:32,656:ERROR:Error retrieving reviews for product: Our Creation of Bond No 9 West Side at url: https://www.parfum.ae/bond-no-9-west-side/
+2023-11-08 22:20:34,906:ERROR:Error retrieving reviews for product: Our Creation of YSL's Splendid Wood at url: https://www.parfum.ae/yves-saint-laurent-splendid-wood/
+2023-11-08 22:20:38,208:ERROR:Error retrieving reviews for product: Our Creation of Atkinsons' Oud Save The Queen at url: https://www.parfum.ae/atkinsons-oud-save-the-queen-for-women/
+2023-11-08 22:20:40,758:ERROR:Error retrieving reviews for product: Our Creation of Byredo Super Cedar  at url: https://www.parfum.ae/byredo-super-cedar/
+2023-11-08 22:20:43,349:ERROR:Error retrieving reviews for product: Our Creation of Memo's Eau De Memo at url: https://www.parfum.ae/memo-eau-de-memo/
+2023-11-08 22:20:45,933:ERROR:Error retrieving reviews for product: Our Creation of Shaik's Opulent Shaik Classic No 33 at url: https://www.parfum.ae/shaik-no-33/
+2023-11-08 22:20:49,322:ERROR:Error retrieving reviews for product: Our Creation of Dior's Miss Dior Rose N'Roses at url: https://www.parfum.ae/dior-miss-dior-rose-n-roses/
+2023-11-08 22:20:51,866:ERROR:Error retrieving reviews for product: Our Creation of Gucci's The Last Day Of Summer at url: https://www.parfum.ae/gucci-the-last-day-of-summer/
+2023-11-08 22:20:54,476:ERROR:Error retrieving reviews for product: Our Creation of YSL's Exquisite Musk at url: https://www.parfum.ae/yves-saint-laurent-exquisite-musk/
+2023-11-08 22:20:58,764:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Vetiver Moloko at url: https://www.parfum.ae/ex-nihilo-vetiver-moloko/
+2023-11-08 22:21:01,133:ERROR:Error retrieving reviews for product: Our Creation of Issey Miyake's L'Eau D'Issey Pure Nectar De Parfum at url: https://www.parfum.ae/issey-miyake-leau-dissey-pure-nectar-de-parfum/
+2023-11-08 22:21:03,713:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Wild Rose Oud at url: https://www.parfum.ae/mancera-wild-rose-oud/
+2023-11-08 22:21:06,577:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Pink Extasy at url: https://www.parfum.ae/montale-paris-pink-extasy/
+2023-11-08 22:21:09,561:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Innuendo at url: https://www.parfum.ae/roja-innuendo/
+2023-11-08 22:21:12,252:ERROR:Error retrieving reviews for product: Our Creation of TF's Vert D’encens at url: https://www.parfum.ae/tom-ford-vert-dencens/
+2023-11-08 22:21:14,442:ERROR:Error retrieving reviews for product: Our Creation of Versace's Vanitas at url: https://www.parfum.ae/versace-vanitas/
+2023-11-08 22:21:16,547:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Rose Goldea at url: https://www.parfum.ae/bvlgari-rose-goldea/
+2023-11-08 22:21:18,653:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Tobacco Mandarin at url: https://www.parfum.ae/byredos-tobacco-mandarin/
+2023-11-08 22:21:20,689:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Cuir Zerzura at url: https://www.parfum.ae/Giorgio-Armani-Cuir-Zerzura/
+2023-11-08 22:21:23,581:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Musc Noble at url: https://www.parfum.ae/guerlains-musc-noble/
+2023-11-08 22:21:25,818:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Wood Sage & Sea Salt at url: https://www.parfum.ae/jo-malone-london-wood-sage-sea-salt/
+2023-11-08 22:21:28,045:ERROR:Error retrieving reviews for product: Our Creation of TF's Lavender Extreme at url: https://www.parfum.ae/TF-Lavender-Extreme/
+2023-11-08 22:21:30,303:ERROR:Error retrieving reviews for product: Our Creation of Cartier's Oud & Ambre at url: https://www.parfum.ae/cartier-oud-and-ambre/
+2023-11-08 22:21:32,713:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Bombshell Oud at url: https://www.parfum.ae/VictoriaS-Secret-Bombshell-Oud/
+2023-11-08 22:21:34,811:ERROR:Error retrieving reviews for product: Our Creation of Dior's Sakura at url: https://www.parfum.ae/dior-sakura/
+2023-11-08 22:21:37,239:ERROR:Error retrieving reviews for product: Our Creation of Fragrance Du Bois' Santal Complet at url: https://www.parfum.ae/fragrance-du-bois-santal-complet/
+2023-11-08 22:21:39,460:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Man Rain Essence at url: https://www.parfum.ae/bvlgari-man-rain-essence/
+2023-11-08 22:21:41,482:ERROR:Error retrieving reviews for product: Our Creation of TF's Vert de Fleur at url: https://www.parfum.ae/tom-ford-vert-de-fleur/
+2023-11-08 22:21:43,541:ERROR:Error retrieving reviews for product: Our Creation of Victor & Rolf's Flowerbomb Bloom at url: https://www.parfum.ae/victor-rolf-flowerbomb-bloom/
+2023-11-08 22:21:45,922:ERROR:Error retrieving reviews for product: Our Creation of YSL's Parisienne at url: https://www.parfum.ae/yves-saint-laurent-parisienne/
+2023-11-08 22:21:48,127:ERROR:Error retrieving reviews for product: Our Creation of  Byredo Casablanca Lily at url: https://www.parfum.ae/byredo-casablanca-lily/
+2023-11-08 22:21:50,347:ERROR:Error retrieving reviews for product: Our Creation of Dior's Santal Noir  at url: https://www.parfum.ae/christian-dior-santal-noir/
+2023-11-08 22:21:52,814:ERROR:Error retrieving reviews for product: Our Creation of Dior's Spice Blend at url: https://www.parfum.ae/christian-diors-spice-blend/
+2023-11-08 22:21:56,030:ERROR:Error retrieving reviews for product: Our Creation of Initio Parfums Prive's Atomic Rose at url: https://www.parfum.ae/atomic-rose/
+2023-11-08 22:21:59,270:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Aurica at url: https://www.parfum.ae/boadicea-the-victorious-aurica/
+2023-11-08 22:22:02,767:ERROR:Error retrieving reviews for product: Our Creation of Hermes' H24 at url: https://www.parfum.ae/hermes-h24/
+2023-11-08 22:22:05,120:ERROR:Error retrieving reviews for product: Our Creation of LV's Imagination at url: https://www.parfum.ae/lv-imagination/
+2023-11-08 22:22:07,341:ERROR:Error retrieving reviews for product: Our Creation of Gucci's A Gloaming Night at url: https://www.parfum.ae/Gucci-A-Gloaming-Night/
+2023-11-08 22:22:09,515:ERROR:Error retrieving reviews for product: Our Creation of Parfums de Marly's Cassili at url: https://www.parfum.ae/Parfums-de-Marly-Casilli/
+2023-11-08 22:22:11,874:ERROR:Error retrieving reviews for product: Our Creation of Matiere Premiere's Falcon Leather at url: https://www.parfum.ae/matiere-premiere-falcon-feather/
+2023-11-08 22:22:13,958:ERROR:Error retrieving reviews for product: Our Creation of Matiere Premiere's Parisian Musc at url: https://www.parfum.ae/matiere-premiere-parisian-musc/
+2023-11-08 22:22:16,981:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Flora Gorgeous Jasmine at url: https://www.parfum.ae/gucci-s-flora-gorgeous-jasmine/
+2023-11-08 22:22:19,371:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Delox at url: https://www.parfum.ae/tiziana-terenzi-delox/
+2023-11-08 22:22:21,747:ERROR:Error retrieving reviews for product: Our Creation of YSL's Capeline at url: https://www.parfum.ae/yves-saint-laurent-capeline/
+2023-11-08 22:22:24,053:ERROR:Error retrieving reviews for product: Our Creation of  Byredo's Flowerhead at url: https://www.parfum.ae/byredos-flowerhead/
+2023-11-08 22:22:26,190:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Emporio Armani Stronger With You Leather  at url: https://www.parfum.ae/our-creation-emporio-armani-stronger-with-you-leather-by-giorgio-armani/
+2023-11-08 22:22:28,252:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Patchouli Ardent at url: https://www.parfum.ae/guerlains-patchouli-ardent/
+2023-11-08 22:22:30,246:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Mixed Emotions at url: https://www.parfum.ae/byredo-mixed-emotions/
+2023-11-08 22:22:32,613:ERROR:Error retrieving reviews for product: Our Creation of TF's Soleil Brulant at url: https://www.parfum.ae/tfs-soleil-brulant/
+2023-11-08 22:22:34,687:ERROR:Error retrieving reviews for product: Our Creation of CH's Amethyst Haze at url: https://www.parfum.ae/CH-Amethyst-Haze/
+2023-11-08 22:22:37,157:ERROR:Error retrieving reviews for product: Our Creation of Le Labo's Mousse de Chene 30 at url: https://www.parfum.ae/le-labo-mousse-de-chene-30/
+2023-11-08 22:22:39,701:ERROR:Error retrieving reviews for product: Our Creation of Xerjoff's Mefisto Gentiluomo  at url: https://www.parfum.ae/xerjoff-mefisto-gentiluomo/
+2023-11-08 22:22:42,054:ERROR:Error retrieving reviews for product: Our Creation of D&G's Velvet Black Patchouli at url: https://www.parfum.ae/dg-velvet-black-patchouli/
+2023-11-08 22:22:44,345:ERROR:Error retrieving reviews for product: Our Creation of YSL's Black Opium Illicit Green at url: https://www.parfum.ae/ysl-black-opium-illicit-green/
+2023-11-08 22:22:46,725:ERROR:Error retrieving reviews for product: Our Creation of Juliette has a Gun's Not a Perfume Superdose at url: https://www.parfum.ae/juliette-has-a-gun-not-a-perfume-superdose/
+2023-11-08 22:22:49,127:ERROR:Error retrieving reviews for product: Our Creation of Thameen's Royal Sapphire at url: https://www.parfum.ae/thameen-royal-sapphire/
+2023-11-08 22:22:51,266:ERROR:Error retrieving reviews for product: Our Creation of Maison Crivelli's Hibiscus Mahajad at url: https://www.parfum.ae/maison-crivelli-hibiscus-mahajad/
+2023-11-08 22:22:53,574:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Gaiac Mystique at url: https://www.parfum.ae/givenchy-gaiac-mystique/
+2023-11-08 22:22:55,866:ERROR:Error retrieving reviews for product: Our Creation of TF's Noir  at url: https://www.parfum.ae/tom-ford-noir/
+2023-11-08 22:22:58,561:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Sunshine Men at url: https://www.parfum.ae/amouage-sunshine-men/
+2023-11-08 22:23:00,885:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Water Calligraphy at url: https://www.parfum.ae/kilian-water-calligraphy/
+2023-11-08 22:23:03,477:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Vanilla Extasy at url: https://www.parfum.ae/montale-paris-vanilla-extasy/
+2023-11-08 22:23:05,815:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Bloom Acqua Di Fiori at url: https://www.parfum.ae/gucci-bloom-acqua-di-fiori-edt/
+2023-11-08 22:23:08,362:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Iris And White Musk at url: https://www.parfum.ae/jo-malone-london-iris-and-white-musk/
+2023-11-08 22:23:10,586:ERROR:Error retrieving reviews for product: Our Creation of LV's Turbulences at url: https://www.parfum.ae/lv-turbulences/
+2023-11-08 22:23:12,926:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Highness Rose at url: https://www.parfum.ae/montale-highness-rose/
+2023-11-08 22:23:15,382:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli'S Oud Al Qasr at url: https://www.parfum.ae/roberto-cavalli-oud-al-qasr/
+2023-11-08 22:23:17,696:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Eau D'Aromes at url: https://www.parfum.ae/armani-eau-daromes/
+2023-11-08 22:23:20,105:ERROR:Error retrieving reviews for product: Our Creation of Mont Blanc's Legend Intense  at url: https://www.parfum.ae/mont-blanc-legend-intense/
+2023-11-08 22:23:22,677:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Ambre Eccentrico  at url: https://www.parfum.ae/giorgio-armani-ambre-eccentrico/
+2023-11-08 22:23:25,689:ERROR:Error retrieving reviews for product: Our Creation of Bond No 9 New York Brooklyn at url: https://www.parfum.ae/bond-no-new-york-brooklyn/
+2023-11-08 22:23:31,248:ERROR:Error retrieving reviews for product: Our Creation of CH's CH Africa Women at url: https://www.parfum.ae/carolina-herrera-ch-africa-women/
+2023-11-08 22:23:33,271:ERROR:Error retrieving reviews for product: Our Creation of Chopard's Rose Maliki  at url: https://www.parfum.ae/chopard-rose-maliki/
+2023-11-08 22:23:36,182:ERROR:Error retrieving reviews for product: Our Creation of Elie Saab's Rose Couture at url: https://www.parfum.ae/elie-saab-rose-couture/
+2023-11-08 22:23:39,780:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Pi Air Men at url: https://www.parfum.ae/givenchy-pi-air-men/
+2023-11-08 22:23:42,937:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Eau De Rhubarbe Ecarlate at url: https://www.parfum.ae/hermes-eau-de-rhubarbe-ecarlate-edc/
+2023-11-08 22:23:45,849:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Gold Oud at url: https://www.parfum.ae/kilian-gold-oud/
+2023-11-08 22:23:49,030:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Black XS L'Exces for Him at url: https://www.parfum.ae/paco-rabanne-black-xs-lexces-man/
+2023-11-08 22:23:52,627:ERROR:Error retrieving reviews for product: Our Creation of TF's Jasmin Rouge  at url: https://www.parfum.ae/tom-ford-jasmin-rouge-edp/
+2023-11-08 22:23:55,617:ERROR:Error retrieving reviews for product: Our Creation of Valentino's Valentina Rosa Assoluto at url: https://www.parfum.ae/valentino-valentina-rosa-assoluto-edp/
+2023-11-08 22:23:58,094:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Forever Pink  at url: https://www.parfum.ae/victoria-secret-forever-pink/
+2023-11-08 22:24:00,333:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Rendez-vous À Moscou at url: https://www.parfum.ae/montale-paris-rendezvous-a-moscou/
+2023-11-08 22:24:03,666:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Siene at url: https://www.parfum.ae/tiziana-terenzi-siene/
+2023-11-08 22:24:06,739:ERROR:Error retrieving reviews for product: Our Creation of In Love With You Armani at url: https://www.parfum.ae/our-creation-of-emporio-armani-in-love-with-you-by-armani/
+2023-11-08 22:24:09,280:ERROR:Error retrieving reviews for product: Our Creation of Jean Paul Gaultier's So Scandal at url: https://www.parfum.ae/jean-paul-gaultiers-so-scandal/
+2023-11-08 22:24:11,772:ERROR:Error retrieving reviews for product: Our Creation of CH's Very Good Girl at url: https://www.parfum.ae/ch-very-good-girl/
+2023-11-08 22:24:14,398:ERROR:Error retrieving reviews for product: Our Creation of Dior's Vanilla Diorama at url: https://www.parfum.ae/dior-vanilla-diorama/
+2023-11-08 22:24:16,769:ERROR:Error retrieving reviews for product: Our Creation of Le Labo's Tabac 28 Miami at url: https://www.parfum.ae/Le-Labo-Tabac-28-Miami/
+2023-11-08 22:24:19,232:ERROR:Error retrieving reviews for product: Our Creation of Atelier Rebul's Istanbul at url: https://www.parfum.ae/Atelier-Rebul-Istanbul/
+2023-11-08 22:24:21,625:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Fleur Narcotique Blossom at url: https://www.parfum.ae/ex-nihilo-fleur-narcotique-blossom/
+2023-11-08 22:24:24,350:ERROR:Error retrieving reviews for product: Our Creation of Zilinski & Rozan's Vanilla Blend at url: https://www.parfum.ae/zilinski-rozan-vanilla-blend/
+2023-11-08 22:24:26,705:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Armani Code Parfum at url: https://www.parfum.ae/giorgio-armani-armani-code-parfum/
+2023-11-08 22:24:29,013:ERROR:Error retrieving reviews for product: Our Creation of Clive Christian's Matsukita at url: https://www.parfum.ae/clive-christian-matsukita/
+2023-11-08 22:24:31,576:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Tonka Cola at url: https://www.parfum.ae/mancera-tonka-cola/
+2023-11-08 22:24:33,915:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Paris - Venise at url: https://www.parfum.ae/chanel-paris-venise-edt/
+2023-11-08 22:24:36,192:ERROR:Error retrieving reviews for product: Our Creation of Versace's Eros at url: https://www.parfum.ae/versace-eros/
+2023-11-08 22:24:38,685:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's Olympea at url: https://www.parfum.ae/paco-rabanne-s-olympea/
+2023-11-08 22:24:40,887:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Insolence at url: https://www.parfum.ae/guerlain-insolence/
+2023-11-08 22:24:43,247:ERROR:Error retrieving reviews for product: Our Creation of Atkinsons' Fashion Decree Woman at url: https://www.parfum.ae/atkinsons-fashion-decree-woman/
+2023-11-08 22:24:45,607:ERROR:Error retrieving reviews for product: Our Creation of Nasomatto's Baraonda at url: https://www.parfum.ae/nasomatto-baraonda/
+2023-11-08 22:24:47,863:ERROR:Error retrieving reviews for product: Our Creation of Boadicea The Victorious' Rose Sapphire  at url: https://www.parfum.ae/boadicea-the-victorious-rose-sapphire/
+2023-11-08 22:24:50,203:ERROR:Error retrieving reviews for product: Our Creation of Clive Christian's 1872 For Men at url: https://www.parfum.ae/Clive-Christian-1872-For-Men/
+2023-11-08 22:24:52,380:ERROR:Error retrieving reviews for product: Our Creation of Frederic Malle's Lipstick Rose at url: https://www.parfum.ae/frederic-malle-lipstick-rose-for-women/
+2023-11-08 22:24:54,673:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Crystal Flowers at url: https://www.parfum.ae/montale-paris-crystal-flowers-edp/
+2023-11-08 22:24:56,951:ERROR:Error retrieving reviews for product: Our Creation of Thameen's Riviere at url: https://www.parfum.ae/thameen-riviere-edp/
+2023-11-08 22:24:59,074:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli's Deep Desire at url: https://www.parfum.ae/roberto-cavalli-deep-desire/
+2023-11-08 22:25:02,170:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Dark lord at url: https://www.parfum.ae/kilian-dark-lord/
+2023-11-08 22:25:04,980:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Ambre Eternel at url: https://www.parfum.ae/guerlain-ambre-eternel/
+2023-11-08 22:25:07,504:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Good Girl Gone Bad Extreme at url: https://www.parfum.ae/kilian-good-girl-gone-bad-extreme/
+2023-11-08 22:25:09,960:ERROR:Error retrieving reviews for product: Our Creation of Sospiro's Laylati at url: https://www.parfum.ae/sospiro-laylati/
+2023-11-08 22:25:12,407:ERROR:Error retrieving reviews for product: Our Creation of YSL's Exquisite Embroidery at url: https://www.parfum.ae/yves-saint-laurent-exquisite-embroidery/
+2023-11-08 22:25:14,835:ERROR:Error retrieving reviews for product: Our Creation of Lancome's Tresor In Love at url: https://www.parfum.ae/lancome-tresor-in-love/
+2023-11-08 22:25:18,106:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Guilty Black Pour Femme at url: https://www.parfum.ae/gucci-guilty-black-pour-femme/
+2023-11-08 22:25:21,075:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Aoud Lagoon  at url: https://www.parfum.ae/montale-aoud-lagoon/
+2023-11-08 22:25:23,838:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Terre d'Hermes Eau Tres Fraiche at url: https://www.parfum.ae/hermes-terre-d-hermes-eau-tres-fraiche/
+2023-11-08 22:25:26,378:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Imitation Man at url: https://www.parfum.ae/amouage-imitation-for-man/
+2023-11-08 22:25:29,475:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Love and Tears at url: https://www.parfum.ae/kilian-love-and-tears/
+2023-11-08 22:25:31,768:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Blue Label  at url: https://www.parfum.ae/givenchy-blue-label/
+2023-11-08 22:25:34,209:ERROR:Error retrieving reviews for product: Our Creation of Acqua Di Parma's Colonia Leather at url: https://www.parfum.ae/acqua-di-parma-colonia-leather/
+2023-11-08 22:25:36,533:ERROR:Error retrieving reviews for product: Our Creation of Atelier Cologne's Oud Saphir at url: https://www.parfum.ae/atelier-cologne-oud-saphir/
+2023-11-08 22:25:39,197:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Omnia Amethyste at url: https://www.parfum.ae/bvlgari-omnia-amethyste-edt/
+2023-11-08 22:25:41,853:ERROR:Error retrieving reviews for product: Our Creation of Cartier's L’envol De Cartier at url: https://www.parfum.ae/cartier-lenvol-de-cartier/
+2023-11-08 22:25:44,263:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Eaudemoiselle Bois De Oud at url: https://www.parfum.ae/givenchy-eaudemoiselle-bois-de-oud/
+2023-11-08 22:25:46,609:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's L'Instant Magic at url: https://www.parfum.ae/guerlain-linstant-magic/
+2023-11-08 22:25:48,879:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Orris & Sandalwood at url: https://www.parfum.ae/jo-malone-london-orris-sandal-wood/
+2023-11-08 22:25:51,171:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Gold Intensitive Aoud at url: https://www.parfum.ae/mancera-intensitive-gold-aoud/
+2023-11-08 22:25:53,481:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Orient Extreme at url: https://www.parfum.ae/montale-orient-extreme/
+2023-11-08 22:25:56,207:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Diaghilev at url: https://www.parfum.ae/roja-diaghilev/
+2023-11-08 22:25:58,515:ERROR:Error retrieving reviews for product: Our Creation of TF's Sole Di Positano at url: https://www.parfum.ae/tom-ford-sole-di-pistiano/
+2023-11-08 22:26:00,677:ERROR:Error retrieving reviews for product: Our Creation of Versace's Versace Pour Femme Oud Oriental at url: https://www.parfum.ae/versace-oud-oriental-pour-femme/
+2023-11-08 22:26:03,390:ERROR:Error retrieving reviews for product: Our Creation of YSL's Paris at url: https://www.parfum.ae/yves-saint-laurent-paris/
+2023-11-08 22:26:05,697:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Cassiopea  at url: https://www.parfum.ae/tiziana-terenzi-cassiopea/
+2023-11-08 22:26:08,357:ERROR:Error retrieving reviews for product: Our Creation of Burberry's Burberry Her Blossom at url: https://www.parfum.ae/burberry-her-blossom/
+2023-11-08 22:26:10,788:ERROR:Error retrieving reviews for product: Our Creation of Santal Blanc at url: https://www.parfum.ae/van-cleef-arpels-santal-blanc/
+2023-11-08 22:26:13,096:ERROR:Error retrieving reviews for product: Our Creation of Escentric Molecules' Renegades Geza Schoen at url: https://www.parfum.ae/escentric-molecules-renegades-geza-schoen/
+2023-11-08 22:26:15,734:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Twilly D'Hermes at url: https://www.parfum.ae/hermes-twilly-d-hermes/
+2023-11-08 22:26:18,278:ERROR:Error retrieving reviews for product: Our Creation of MFK's Petit Matin at url: https://www.parfum.ae/maison-francis-kurkdjia-petit-matin/
+2023-11-08 22:26:20,559:ERROR:Error retrieving reviews for product: Our Creation of Luxodor The Ottoman Sultana at url: https://www.parfum.ae/luxodor-the-ottoman-sultana/
+2023-11-08 22:26:22,993:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Eau De Moiselle  at url: https://www.parfum.ae/givenchy-eau-de-moiselle/
+2023-11-08 22:26:25,333:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli's Exotica at url: https://www.parfum.ae/roberto-cavalli-exotica/
+2023-11-08 22:26:27,796:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's XO at url: https://www.parfum.ae/victorias-secret-xo/
+2023-11-08 22:26:30,319:ERROR:Error retrieving reviews for product: Our Creation of Paco Rabanne's One Million Royal at url: https://www.parfum.ae/paco-rabanne-one-million-royal/
+2023-11-08 22:26:32,826:ERROR:Error retrieving reviews for product: Our Creation of PDM's Godolphin  at url: https://www.parfum.ae/parfums-de-marly-godolphin/
+2023-11-08 22:26:39,730:ERROR:Error retrieving reviews for product: Our Creation of Ralph Lauren's Polo Supreme Oud at url: https://www.parfum.ae/ralph-lauren-polo-supreme-oud/
+2023-11-08 22:26:42,113:ERROR:Error retrieving reviews for product: Our Creation of Memo Paris' African Leather at url: https://www.parfum.ae/memo-african-leather/
+2023-11-08 22:26:44,700:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Blue Sapphire at url: https://www.parfum.ae/boadicea-the-victorious-blue-sapphire/
+2023-11-08 22:26:47,473:ERROR:Error retrieving reviews for product: Our Creation of  Chanel's Misia at url: https://www.parfum.ae/chanel-paris-misia-eau-de-parfum/
+2023-11-08 22:26:49,923:ERROR:Error retrieving reviews for product: Our Creation of Memo's Tiger's Nest  at url: https://www.parfum.ae/memo-tigers-nest/
+2023-11-08 22:26:52,211:ERROR:Error retrieving reviews for product: Our Creation of PDM's Byerley Edp  at url: https://www.parfum.ae/parfums-de-marly-byerley-edp/
+2023-11-08 22:26:54,579:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Bracken Man at url: https://www.parfum.ae/amouage-bracken-man/
+2023-11-08 22:26:57,045:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Epic Woman at url: https://www.parfum.ae/amouage-epic-woman/
+2023-11-08 22:26:59,546:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Imitation Woman at url: https://www.parfum.ae/amouage-imitation-for-woman/
+2023-11-08 22:27:02,345:ERROR:Error retrieving reviews for product: Our Creation of Kilian's In the City of Sin at url: https://www.parfum.ae/kilian-in-the-city-of-sin/
+2023-11-08 22:27:05,064:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Day Dreams at url: https://www.parfum.ae/montale-paris-day-dreams/
+2023-11-08 22:27:07,493:ERROR:Error retrieving reviews for product: Our Creation of Sospiro's Opera at url: https://www.parfum.ae/sospiro-perfumes-opera/
+2023-11-08 22:27:09,763:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Roses Vanille  at url: https://www.parfum.ae/mancera-roses-vanille/
+2023-11-08 22:27:12,095:ERROR:Error retrieving reviews for product: Our Creation of Santal Carmin  at url: https://www.parfum.ae/atelier-cologne-santal-carmin/
+2023-11-08 22:27:14,488:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Encens Chembur  at url: https://www.parfum.ae/byredo-encens-chembur/
+2023-11-08 22:27:16,712:ERROR:Error retrieving reviews for product: Our Creation of D&G's Velvet Amber Skin  at url: https://www.parfum.ae/dolce-gabbana-velvet-amber-skin/
+2023-11-08 22:27:19,406:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Gumin at url: https://www.parfum.ae/tiziana-terenzi-gumin-extrait-de-parfum/
+2023-11-08 22:27:21,715:ERROR:Error retrieving reviews for product: Our Creation of Frederic Malle's Promise at url: https://www.parfum.ae/frederic-malle-promise/
+2023-11-08 22:27:24,154:ERROR:Error retrieving reviews for product: Our Creation of Van Cleef & Arpels' Moonlight Patchouli at url: https://www.parfum.ae/van-cleef-arpels-moonlight-patchouli/
+2023-11-08 22:27:26,400:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Love Shot at url: https://www.parfum.ae/ex-nihilo-love-shot/
+2023-11-08 22:27:28,616:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Rose Essentielle at url: https://www.parfum.ae/bvlgari-rose-essentielle/
+2023-11-08 22:27:30,723:ERROR:Error retrieving reviews for product: Our Creation of D&G's Intenso at url: https://www.parfum.ae/dolce-gabbana-intenso-edp/
+2023-11-08 22:27:32,909:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Habit Rouge Dress Code at url: https://www.parfum.ae/guerlain-habit-rouge-dress-code/
+2023-11-08 22:27:35,155:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Emporio Diamonds at url: https://www.parfum.ae/giorgio-armani-emporio-diamonds-for-women/
+2023-11-08 22:27:37,479:ERROR:Error retrieving reviews for product: Our Creation of Bottega Veneta Pour Homme at url: https://www.parfum.ae/bottega-veneta-pour-homme/
+2023-11-08 22:27:39,704:ERROR:Error retrieving reviews for product: Our Creation of Creed's Millesime 1849 at url: https://www.parfum.ae/creed-millesime-1849/
+2023-11-08 22:27:42,097:ERROR:Error retrieving reviews for product: Our Creation of Mizensir's Coeur de Cologne at url: https://www.parfum.ae/mizensirs-coeur-de-cologne/
+2023-11-08 22:27:44,359:ERROR:Error retrieving reviews for product: Our Creation of CH's Good Girl Supreme at url: https://www.parfum.ae/CH-Good-Girl-Supreme/
+2023-11-08 22:27:46,668:ERROR:Error retrieving reviews for product: Our Creation of Escentric Molecules' Molecule 01 + Patchouli at url: https://www.parfum.ae/escentric-molecules-molecule-01-patchouli/
+2023-11-08 22:27:48,824:ERROR:Error retrieving reviews for product: Our Creation of Maison Margiela's At The Barber's at url: https://www.parfum.ae/Maison-Margiela-At-The-Barbers/
+2023-11-08 22:27:51,502:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Lime Basil & Mandarin at url: https://www.parfum.ae/jo-malone-london-lime-basil-mandarin/
+2023-11-08 22:27:53,794:ERROR:Error retrieving reviews for product: Our Creation of Chanel's N1 L'Eau Rouge at url: https://www.parfum.ae/chanel-n1-l-eau-rouge/
+2023-11-08 22:27:56,349:ERROR:Error retrieving reviews for product: Our Creation of Maison Margiela's Lazy Sunday Morning at url: https://www.parfum.ae/maison-margiela-lazy-sunday-morning/
+2023-11-08 22:27:58,742:ERROR:Error retrieving reviews for product: Our Creation of Juliette Has A Gun's Ego Stratis at url: https://www.parfum.ae/juliette-has-a-gun-ego-stratis/
+2023-11-08 22:28:00,919:ERROR:Error retrieving reviews for product: Our Creation of Unique'e Luxury's Crush On Me at url: https://www.parfum.ae/unique-e-luxury-crush-on-me/
+2023-11-08 22:28:03,443:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Coco Mademoiselle at url: https://www.parfum.ae/chanel-coco-mademoiselle/
+2023-11-08 22:28:05,681:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Coco Noir at url: https://www.parfum.ae/chanel-coco-noir/
+2023-11-08 22:28:07,921:ERROR:Error retrieving reviews for product: Our Creation of Cartier's Oud & Rose at url: https://www.parfum.ae/cartier-oud-rose-cartier/
+2023-11-08 22:28:10,267:ERROR:Error retrieving reviews for product: Our Creation of Dior's Forever and Ever  at url: https://www.parfum.ae/dior-forever-and-ever/
+2023-11-08 22:28:12,459:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Les Absolus d'Orient Santal Royal  at url: https://www.parfum.ae/guerlain-les-absolus-dorient-santal-royal/
+2023-11-08 22:28:14,715:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Rose & White Musk Absolue at url: https://www.parfum.ae/jo-malone-london-rose-white-musk-absolue/
+2023-11-08 22:28:16,955:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Black Line  at url: https://www.parfum.ae/mancera-black-line/
+2023-11-08 22:28:19,232:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Kingdom Of Bahrain  at url: https://www.parfum.ae/roja-kingdom-of-bahrain/
+2023-11-08 22:28:21,610:ERROR:Error retrieving reviews for product: Our Creation of TF's Vert Boheme at url: https://www.parfum.ae/tom-ford-vert-boheme/
+2023-11-08 22:28:23,833:ERROR:Error retrieving reviews for product: Our Creation of Versace's Versence at url: https://www.parfum.ae/versace-versence/
+2023-11-08 22:28:26,311:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Meander at url: https://www.parfum.ae/amouage-meander/
+2023-11-08 22:28:28,921:ERROR:Error retrieving reviews for product: Our Creation of Estee Lauder's Wood Mystique at url: https://www.parfum.ae/estee-lauder-wood-mystique/
+2023-11-08 22:28:31,345:ERROR:Error retrieving reviews for product: Our Creation of TF's Beau De Jour at url: https://www.parfum.ae/tfs-beau-de-jour/
+2023-11-08 22:28:33,598:ERROR:Error retrieving reviews for product: Our Creation of Nasomatto's Fantomas at url: https://www.parfum.ae/nasomattos-fantomas/
+2023-11-08 22:28:36,107:ERROR:Error retrieving reviews for product: Our Creation of Kenzo's L'Eau Par Kenzo Pour Homme at url: https://www.parfum.ae/kenzo-leau-par-kenzo-pour-homme/
+2023-11-08 22:28:38,500:ERROR:Error retrieving reviews for product: Our Creation of Lancome's Idole Aura at url: https://www.parfum.ae/Lancome-Idole-Aura/
+2023-11-08 22:28:40,910:ERROR:Error retrieving reviews for product: Our Creation of Jean Paul Gaultier's Scandal Gold at url: https://www.parfum.ae/jean-paul-gaultier-scandal-gold/
+2023-11-08 22:28:43,171:ERROR:Error retrieving reviews for product: Our Creation of Zilinski & Rozan's Black Pepper & Amber, Neroli at url: https://www.parfum.ae/zilinski-rozan-black-pepper-amber-neroli/
+2023-11-08 22:28:45,442:ERROR:Error retrieving reviews for product: Our Creation of Dior's Leather Oud at url: https://www.parfum.ae/christian-dior-leather-oud/
+2023-11-08 22:28:47,704:ERROR:Error retrieving reviews for product: Our Creation of Ex Nihilo's Viper Green at url: https://www.parfum.ae/ex-nihilo-viper-green/
+2023-11-08 22:28:50,159:ERROR:Error retrieving reviews for product: Our Creation of  Bond No 9 New York Amber at url: https://www.parfum.ae/bond-no-new-york-amber/
+2023-11-08 22:28:52,605:ERROR:Error retrieving reviews for product: Our Creation of Clive Christian's X for Men at url: https://www.parfum.ae/clive-christian-x-for-men/
+2023-11-08 22:28:55,114:ERROR:Error retrieving reviews for product: Our Creation of LV's Coeur Battant at url: https://www.parfum.ae/lv-coeur-battant/
+2023-11-08 22:28:57,369:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Nepal Aoud at url: https://www.parfum.ae/montale-paris-nepal-aoud-edp/
+2023-11-08 22:28:59,893:ERROR:Error retrieving reviews for product: Our Creation of PDM's Safanad at url: https://www.parfum.ae/parfums-de-marly-safanad-edp/
+2023-11-08 22:29:02,270:ERROR:Error retrieving reviews for product: Our Creation of The House Of Oud's Empathy at url: https://www.parfum.ae/the-house-of-oud-empathy-edp/
+2023-11-08 22:29:04,648:ERROR:Error retrieving reviews for product: Our Creation of Roja Dove's Madison Pour Femme at url: https://www.parfum.ae/roja-dove-madison-pour-femme/
+2023-11-08 22:29:06,956:ERROR:Error retrieving reviews for product: Our Creation of CH's 212 Men Ice at url: https://www.parfum.ae/carolina-herrera-men-ice/
+2023-11-08 22:29:09,513:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Aqua Allegoria Pera Granita at url: https://www.parfum.ae/guerlain-aqua-allegoria-pera-granita/
+2023-11-08 22:29:11,737:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Apple Brandy at url: https://www.parfum.ae/kilian-apple-brandy/
+2023-11-08 22:29:13,845:ERROR:Error retrieving reviews for product: Our Creation of Stephane Hum Lucas Soleil De Jeddah at url: https://www.parfum.ae/stephane-hum-lucas-soleil-de-jeddah/
+2023-11-08 22:29:16,138:ERROR:Error retrieving reviews for product: Our Creation of Luxodor's Silk Roses at url: https://www.parfum.ae/luxodor-silk-roses/
+2023-11-08 22:29:18,701:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Jour Absolu at url: https://www.parfum.ae/hermes-jour-absolu/
+2023-11-08 22:29:20,957:ERROR:Error retrieving reviews for product: Our Creation of Valentino's Valentina Oud Assoluto at url: https://www.parfum.ae/valentino-valentina-oud-assoluto-edp/
+2023-11-08 22:29:23,250:ERROR:Error retrieving reviews for product: Our Creation of Burberry Classic for Men at url: https://www.parfum.ae/burberry-classic-for-men/
+2023-11-08 22:29:25,891:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Sterling at url: https://www.parfum.ae/boadicea-the-victorious-sterling/
+2023-11-08 22:29:28,238:ERROR:Error retrieving reviews for product: Our Creation of CH's 212 VIP Wild Party Women at url: https://www.parfum.ae/carolina-herrera-vip-wild-party-women/
+2023-11-08 22:29:30,507:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Jersey  at url: https://www.parfum.ae/chanel-jersey/
+2023-11-08 22:29:32,816:ERROR:Error retrieving reviews for product: Our Creation of Boadicea The Victorious' Agarwood Collection Intricate at url: https://www.parfum.ae/boadicea-the-victorios-agarwood-collection-intricate/
+2023-11-08 22:29:35,009:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Dahlia Divin at url: https://www.parfum.ae/givenchy-dahlia-devin/
+2023-11-08 22:29:37,317:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Black Perfecto by La Petite Robe Noire Florale at url: https://www.parfum.ae/guerlain-la-petite-robe-noire-black-perfecto-florale-edp/
+2023-11-08 22:29:39,731:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Black Oud  at url: https://www.parfum.ae/kilian-black-oud/
+2023-11-08 22:29:42,175:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Black Vanilla at url: https://www.parfum.ae/mancera-black-vanilla/
+2023-11-08 22:29:44,299:ERROR:Error retrieving reviews for product: Our Creation of Mugler's Aura Mugler at url: https://www.parfum.ae/thierry-mugler-aura-mugler/
+2023-11-08 22:29:46,655:ERROR:Error retrieving reviews for product: Our Creation of Victoria's Secret's Heavenly at url: https://www.parfum.ae/victoria-secret-heavenly/
+2023-11-08 22:29:48,816:ERROR:Error retrieving reviews for product: Our Creation of Nina Ricci's L'air Du Paradis at url: https://www.parfum.ae/nina-ricci-lair-du-paradis/
+2023-11-08 22:29:51,055:ERROR:Error retrieving reviews for product: Our Creation of CH's Saffron Lazuli at url: https://www.parfum.ae/carolina-herrera-saffron-lazuli/
+2023-11-08 22:29:53,480:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's L'Interdit Eau de Parfum Intense at url: https://www.parfum.ae/linterdit-eau-de-parfum-intense/
+2023-11-08 22:29:55,826:ERROR:Error retrieving reviews for product: Our Creation of Boadicea the Victorious' Heroine at url: https://www.parfum.ae/boadicea-the-victorious-heroine/
+2023-11-08 22:29:58,313:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Open Sky at url: https://www.parfum.ae/byredos-open-sky/
+2023-11-08 22:30:00,876:ERROR:Error retrieving reviews for product: Our Creation of Initio Parfums Prive's Oud for Happiness at url: https://www.parfum.ae/Initio-Parfums-Prive-Oud-for-Happiness/
+2023-11-08 22:30:05,175:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Le Gemme Ambero at url: https://www.parfum.ae/bvlgari-le-gemme-ambero/
+2023-11-08 22:30:09,777:ERROR:Error retrieving reviews for product: Our Creation of Lancome's Mille et Une Roses at url: https://www.parfum.ae/lancome-mille-et-une-roses/
+2023-11-08 22:30:14,024:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Interlude Woman at url: https://www.parfum.ae/amouage-interlude-woman/
+2023-11-08 22:30:17,282:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Beloved for Women at url: https://www.parfum.ae/amouage-beloved-women/
+2023-11-08 22:30:20,746:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Liaisons Dangereuses at url: https://www.parfum.ae/kilian-liaisons-dangereuses/
+2023-11-08 22:30:23,439:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Aoud Safran at url: https://www.parfum.ae/montale-paris-aoud-safran/
+2023-11-08 22:30:26,666:ERROR:Error retrieving reviews for product: Our Creation of Boadicea The Victorious' Chariot at url: https://www.parfum.ae/boadicea-the-victorious-chariot/
+2023-11-08 22:30:29,374:ERROR:Error retrieving reviews for product: Our Creation of Hermes' Ambre Narguile at url: https://www.parfum.ae/hermes-ambre-narguile/
+2023-11-08 22:30:31,951:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Gentleman Society at url: https://www.parfum.ae/givenchy-gentleman-society/
+2023-11-08 22:30:34,863:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Man in Black at url: https://www.parfum.ae/bvlgari-man-in-black/
+2023-11-08 22:30:37,334:ERROR:Error retrieving reviews for product: Our Creation of Boucheron Quatre Absolue De Nuit  at url: https://www.parfum.ae/boucheron-quatre-absolue-de-nuit/
+2023-11-08 22:30:40,684:ERROR:Error retrieving reviews for product: Our Creation of CH's 212 Nyc Pills Women at url: https://www.parfum.ae/carolina-herrera-nyc-pills-women/
+2023-11-08 22:30:44,238:ERROR:Error retrieving reviews for product: Our Creation of Creed's Pure White Cologne  at url: https://www.parfum.ae/creed-pure-white-cologne/
+2023-11-08 22:30:47,032:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Golden Sand at url: https://www.parfum.ae/montale-paris-golden-sand/
+2023-11-08 22:30:50,124:ERROR:Error retrieving reviews for product: Our Creation of Gucci's Pour Homme at url: https://www.parfum.ae/gucci-pour-homme/
+2023-11-08 22:30:53,304:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Sacred Wood at url: https://www.parfum.ae/kilian-sacred-wood/
+2023-11-08 22:30:55,734:ERROR:Error retrieving reviews for product: Our Creation of The Beautiful Mind Series Volume.1 Intelligence & Fantasy at url: https://www.parfum.ae/escentric-molecules-the-beautiful-mind-series-volume/
+2023-11-08 22:30:58,506:ERROR:Error retrieving reviews for product: Our Creation of Ralph Lauren's Polo Black at url: https://www.parfum.ae/ralph-lauren-polo-black/
+2023-11-08 22:31:01,955:ERROR:Error retrieving reviews for product: Our Creation of CK's Euphoria Essence Women at url: https://www.parfum.ae/calvin-klein-euphoria-essence-women/
+2023-11-08 22:31:05,038:ERROR:Error retrieving reviews for product: Our Creation of Chanel's Allure Sensuelle  at url: https://www.parfum.ae/chanel-allure-sensuelle-edt/
+2023-11-08 22:31:08,152:ERROR:Error retrieving reviews for product: Our Creation of Dior's Grand Bal at url: https://www.parfum.ae/christian-dior-grand-bal/
+2023-11-08 22:31:11,148:ERROR:Error retrieving reviews for product: Our Creation of Givenchy's Play Sport at url: https://www.parfum.ae/givenchy-play-sport/
+2023-11-08 22:31:15,152:ERROR:Error retrieving reviews for product: Our Creation of Guerlain's Shalimar at url: https://www.parfum.ae/guerlain-shalimar/
+2023-11-08 22:31:17,537:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Birch & Black Pepper  at url: https://www.parfum.ae/jo-malone-london-birch-black-pepper/
+2023-11-08 22:31:20,139:ERROR:Error retrieving reviews for product: Our Creation of Mancera's Velvet Vanilla at url: https://www.parfum.ae/mancera-velvet-vanilla/
+2023-11-08 22:31:23,018:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Fantastic Aoud at url: https://www.parfum.ae/montale-paris-fantastic-aoud-edp/
+2023-11-08 22:31:26,444:ERROR:Error retrieving reviews for product: Our Creation of Shaik's Chic Shaik No.30 at url: https://www.parfum.ae/chick-shaik-no-30/
+2023-11-08 22:31:29,085:ERROR:Error retrieving reviews for product: Our Creation of Viktor & Rolf's Flowerbomb Midnight at url: https://www.parfum.ae/viktor-rolfs-flowerbomb-midnight-women/
+2023-11-08 22:31:31,361:ERROR:Error retrieving reviews for product: Our Creation of Luxodor Baristas  at url: https://www.parfum.ae/luxodor-baristas-30ml/
+2023-11-08 22:31:33,670:ERROR:Error retrieving reviews for product: Our Creation of Penhaligon's Iris Prima at url: https://www.parfum.ae/penhaligons-iris-prima/
+2023-11-08 22:31:35,978:ERROR:Error retrieving reviews for product: Our Creation of Acqua Di Parma's Oud Eau De Parfum at url: https://www.parfum.ae/acqua-di-parma-oud-eau-de-parfum/
+2023-11-08 22:31:38,547:ERROR:Error retrieving reviews for product: Our Creation of Le Labo's Cedrat 37 Berlin at url: https://www.parfum.ae/Le-Labo-Cedrat-37-Berlin/
+2023-11-08 22:31:40,750:ERROR:Error retrieving reviews for product: Our Creation of Philipp Plein Parfums' No Limits at url: https://www.parfum.ae/philipp-plein-parfums-no-limits/
+2023-11-08 22:31:43,089:ERROR:Error retrieving reviews for product: Our Creation of D&G's Light Blue Forever at url: https://www.parfum.ae/dg-light-blue-forever/
+2023-11-08 22:31:45,682:ERROR:Error retrieving reviews for product: Our Creation of TF's Rose de Chine at url: https://www.parfum.ae/tf-rose-de-chine/
+2023-11-08 22:31:48,274:ERROR:Error retrieving reviews for product: Our Creation of Initio Parfums Prive's Paragon at url: https://www.parfum.ae/initio-parfums-prive-paragon/
+2023-11-08 22:31:51,803:ERROR:Error retrieving reviews for product: Our Creation of Matiere Premiere's Radical Rose at url: https://www.parfum.ae/matiere-premiere-radical-rose/
+2023-11-08 22:31:54,993:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Blue Moon Ginger Dash at url: https://www.parfum.ae/kilian-blue-moon-ginger-dash/
+2023-11-08 22:31:57,616:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli's Paradiso at url: https://www.parfum.ae/roberto-cavalli-paradiso/
+2023-11-08 22:32:00,129:ERROR:Error retrieving reviews for product: Our Creation of Hugo Boss - Boss Bottled Oud Saffron at url: https://www.parfum.ae/hugo-boss-boss-bottled-oud-saffron/
+2023-11-08 22:32:03,005:ERROR:Error retrieving reviews for product: Our Creation of Montale Paris' Aoud Damascus at url: https://www.parfum.ae/montale-paris-aoud-damascus/
+2023-11-08 22:32:05,567:ERROR:Error retrieving reviews for product: Our Creation of PDM's Habdan at url: https://www.parfum.ae/parfums-de-marly-habdan/
+2023-11-08 22:32:07,994:ERROR:Error retrieving reviews for product: Our Creation of Boucheron - Oud de Carthage at url: https://www.parfum.ae/boucheron-oud-de-carthage/
+2023-11-08 22:32:10,657:ERROR:Error retrieving reviews for product: Our Creation of Jo Malone London's Wild Bluebell Cologne at url: https://www.parfum.ae/jo-malone-london-wild-bluebell-cologne/
+2023-11-08 22:32:13,076:ERROR:Error retrieving reviews for product: Our Creation of Roberto Cavalli's Supreme Sandal at url: https://www.parfum.ae/roberto-cavalli-supreme-sandal/
+2023-11-08 22:32:15,906:ERROR:Error retrieving reviews for product: Our Creation of Xerjoff's Rose Gold at url: https://www.parfum.ae/xerjoff-rose-gold/
+2023-11-08 22:32:19,349:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Gold Man at url: https://www.parfum.ae/amouage-gold-man/
+2023-11-08 22:32:22,898:ERROR:Error retrieving reviews for product: Our Creation of Boadicea The Victorious' Imperial Oud at url: https://www.parfum.ae/boadicea-the-victorious-imperial-oud/
+2023-11-08 22:32:27,287:ERROR:Error retrieving reviews for product: Our Creation of  Byredo's Bibliotheque  at url: https://www.parfum.ae/byredo-biblotique/
+2023-11-08 22:32:31,729:ERROR:Error retrieving reviews for product: Our Creation of Tiziana Terenzi's Nero Oudh at url: https://www.parfum.ae/tiziana-terenzi-zero-oudh/
+2023-11-08 22:32:35,003:ERROR:Error retrieving reviews for product: Our Creation of Rosendo Mateu Olfactive Expressions' Mateu N°7 Patchouli, Oud, Vanilla at url: https://www.parfum.ae/rosendo-mateu-olfactive-expressions-mateu-n7-patchouli-oud-vanilla/
+2023-11-08 22:32:37,334:ERROR:Error retrieving reviews for product: Our Creation of BDK Parfums' Velvet Tonka at url: https://www.parfum.ae/bdk-parfums-velvet-tonka/
+2023-11-08 22:32:39,789:ERROR:Error retrieving reviews for product: Our Creation of Bvlgari's Le Gemme Orom at url: https://www.parfum.ae/bvlgari-le-gemme-orom/
+2023-11-08 22:32:42,156:ERROR:Error retrieving reviews for product: Our Creation of LV's Symphony at url: https://www.parfum.ae/lv-symphony/
+2023-11-08 22:32:44,634:ERROR:Error retrieving reviews for product: Our Creation of Caron's Tabac Exquis at url: https://www.parfum.ae/caron-s-tabac-exquis/
+2023-11-08 22:32:46,971:ERROR:Error retrieving reviews for product: Our Creation of CH's Chic at url: https://www.parfum.ae/carolina-herrera-chic/
+2023-11-08 22:32:49,312:ERROR:Error retrieving reviews for product: Our Creation of Dior's Poison at url: https://www.parfum.ae/christian-dior-poison/
+2023-11-08 22:32:51,664:ERROR:Error retrieving reviews for product: Our Creation of Giorgio Armani's Emporio Armani Stronger With You at url: https://www.parfum.ae/giorgio-armani-emporio-armani-stronger-with-you/
+2023-11-08 22:32:53,877:ERROR:Error retrieving reviews for product: Our Creation of Marc Jacobs' Decadence at url: https://www.parfum.ae/marc-jacobs-decadence/
+2023-11-08 22:32:56,330:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Journey Woman at url: https://www.parfum.ae/amouage-journey-woman/
+2023-11-08 22:32:58,806:ERROR:Error retrieving reviews for product: Our Creation of Amouage's Figment Women at url: https://www.parfum.ae/amouage-figment-women/
+2023-11-08 22:33:01,843:ERROR:Error retrieving reviews for product: Our Creation of Kilian's Incense Oud at url: https://www.parfum.ae/kilian-incense-oud/
+2023-11-08 22:33:13,672:ERROR:Error retrieving reviews for product: Black Oud Synthetic at url: https://www.parfum.ae/black-oud-synthetic/
+2023-11-08 22:33:15,862:ERROR:Error retrieving reviews for product: Oud Bormi Synthetic at url: https://www.parfum.ae/oud-bormi-synthetic/
+2023-11-08 22:33:18,807:ERROR:Error retrieving reviews for product: Oud Khalifa Synthetic at url: https://www.parfum.ae/oud-khalifa-synthetic/
+2023-11-08 22:33:21,028:ERROR:Error retrieving reviews for product: Oud Assami Synthetic at url: https://www.parfum.ae/oud-assami-synthetic/
+2023-11-08 22:33:23,371:ERROR:Error retrieving reviews for product: Oud Khas Synthetic at url: https://www.parfum.ae/oud-khas-synthetic/
+2023-11-08 22:33:25,750:ERROR:Error retrieving reviews for product: White Oud Synthetic at url: https://www.parfum.ae/white-oud-synthetic/
+2023-11-08 22:33:28,440:ERROR:Error retrieving reviews for product: Oud Trad Honey Synthetic at url: https://www.parfum.ae/oud-trad-honey-synthetic/
+2023-11-08 22:33:30,825:ERROR:Error retrieving reviews for product: White Oud Super Synthetic at url: https://www.parfum.ae/white-oud-super-synthetic/
+2023-11-08 22:33:33,046:ERROR:Error retrieving reviews for product: Oud Francy Synthetic at url: https://www.parfum.ae/oud-francy-synthetic/
+2023-11-08 22:33:35,661:ERROR:Error retrieving reviews for product: Oud Saudi Synthetic at url: https://www.parfum.ae/oud-saudi-synthetic/
+2023-11-08 22:33:38,168:ERROR:Error retrieving reviews for product: Bulgari Gulab Synthetic at url: https://www.parfum.ae/bulgari-gulab-synthetic/
+2023-11-08 22:33:40,546:ERROR:Error retrieving reviews for product: Oud Turabi Synthetic at url: https://www.parfum.ae/oud-turabi-synthetic/
+2023-11-08 22:37:05,669:ERROR:Error retrieving title for product: Our Creation of Cartier's Oud & Santal Interior Perfume at url: https://www.parfum.ae/cartiers-oud-&-santal-interior-perfume/
+2023-11-08 22:37:05,685:ERROR:Error retrieving stars for product: Our Creation of Cartier's Oud & Santal Interior Perfume at url: https://www.parfum.ae/cartiers-oud-&-santal-interior-perfume/
+2023-11-08 22:37:05,685:ERROR:Error retrieving reviews for product: Our Creation of Cartier's Oud & Santal Interior Perfume at url: https://www.parfum.ae/cartiers-oud-&-santal-interior-perfume/
+2023-11-08 22:37:05,685:ERROR:Error retrieving price for product: Our Creation of Cartier's Oud & Santal Interior Perfume at url: https://www.parfum.ae/cartiers-oud-&-santal-interior-perfume/
+2023-11-08 22:49:29,807:ERROR:Error retrieving title for product: Our Creation of Cartier's Oud & Santal Fragrance Oil Reed Diffuser at url: https://www.parfum.ae/cartiers-oud-&-santal-fragrance-oil-reed-diffuser/
+2023-11-08 22:49:29,814:ERROR:Error retrieving stars for product: Our Creation of Cartier's Oud & Santal Fragrance Oil Reed Diffuser at url: https://www.parfum.ae/cartiers-oud-&-santal-fragrance-oil-reed-diffuser/
+2023-11-08 22:49:29,814:ERROR:Error retrieving reviews for product: Our Creation of Cartier's Oud & Santal Fragrance Oil Reed Diffuser at url: https://www.parfum.ae/cartiers-oud-&-santal-fragrance-oil-reed-diffuser/
+2023-11-08 22:49:29,814:ERROR:Error retrieving price for product: Our Creation of Cartier's Oud & Santal Fragrance Oil Reed Diffuser at url: https://www.parfum.ae/cartiers-oud-&-santal-fragrance-oil-reed-diffuser/
+2023-11-08 22:54:42,977:ERROR:Error retrieving title for product: Our Creation of Byredo's Oud Immortel Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/byredo-oud immortel-fragrance-oil-reed-diffuser/
+2023-11-08 22:54:42,993:ERROR:Error retrieving stars for product: Our Creation of Byredo's Oud Immortel Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/byredo-oud immortel-fragrance-oil-reed-diffuser/
+2023-11-08 22:54:42,993:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Oud Immortel Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/byredo-oud immortel-fragrance-oil-reed-diffuser/
+2023-11-08 22:54:42,993:ERROR:Error retrieving price for product: Our Creation of Byredo's Oud Immortel Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/byredo-oud immortel-fragrance-oil-reed-diffuser/
+2023-11-08 22:56:10,269:INFO:Time taken to retrieve information for each product: 1:23:35.782525
