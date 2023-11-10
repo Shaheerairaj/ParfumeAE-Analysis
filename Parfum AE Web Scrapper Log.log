@@ -533,3 +533,31 @@
 2023-11-08 22:54:42,993:ERROR:Error retrieving reviews for product: Our Creation of Byredo's Oud Immortel Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/byredo-oud immortel-fragrance-oil-reed-diffuser/
 2023-11-08 22:54:42,993:ERROR:Error retrieving price for product: Our Creation of Byredo's Oud Immortel Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/byredo-oud immortel-fragrance-oil-reed-diffuser/
 2023-11-08 22:56:10,269:INFO:Time taken to retrieve information for each product: 1:23:35.782525
+2023-11-10 16:51:12,770:INFO:Time taken to retrieve list of all products: 0:00:06.632689
+2023-11-10 16:52:12,014:ERROR:Error retrieving reviews for product: Oud Trad Honey Synthetic at url: https://www.parfum.ae/oud-trad-honey-synthetic/
+2023-11-10 16:52:15,663:ERROR:Error retrieving reviews for product: White Oud Super Synthetic at url: https://www.parfum.ae/white-oud-super-synthetic/
+2023-11-10 16:52:19,559:ERROR:Error retrieving reviews for product: Oud Francy Synthetic at url: https://www.parfum.ae/oud-francy-synthetic/
+2023-11-10 16:52:23,505:ERROR:Error retrieving reviews for product: Oud Saudi Synthetic at url: https://www.parfum.ae/oud-saudi-synthetic/
+2023-11-10 16:52:27,334:ERROR:Error retrieving reviews for product: Bulgari Gulab Synthetic at url: https://www.parfum.ae/bulgari-gulab-synthetic/
+2023-11-10 16:52:31,354:ERROR:Error retrieving reviews for product: Oud Turabi Synthetic at url: https://www.parfum.ae/oud-turabi-synthetic/
+2023-11-10 16:52:34,983:ERROR:Error retrieving reviews for product: Oud Laosi at url: https://www.parfum.ae/oud-laosi/
+2023-11-10 16:52:40,733:ERROR:Error retrieving reviews for product: Oud Muataq / Qadeem Synthetic at url: https://www.parfum.ae/oud-muataq-qadeem-synthetic/
+2023-11-10 16:52:44,631:ERROR:Error retrieving reviews for product: Black Oud Synthetic at url: https://www.parfum.ae/black-oud-synthetic/
+2023-11-10 16:52:48,311:ERROR:Error retrieving reviews for product: Oud Bormi Synthetic at url: https://www.parfum.ae/oud-bormi-synthetic/
+2023-11-10 16:52:52,173:ERROR:Error retrieving reviews for product: Oud Khalifa Synthetic at url: https://www.parfum.ae/oud-khalifa-synthetic/
+2023-11-10 16:52:55,821:ERROR:Error retrieving reviews for product: Oud Assami Synthetic at url: https://www.parfum.ae/oud-assami-synthetic/
+2023-11-10 16:52:57,342:INFO:Time taken to retrieve information for each product: 0:01:06.662064
+2023-11-10 17:11:25,718:INFO:Time taken to retrieve list of all products: 0:00:05.825441
+2023-11-10 17:11:50,481:ERROR:Error retrieving reviews for product: Bulgari Gulab Synthetic at url: https://www.parfum.ae/bulgari-gulab-synthetic/
+2023-11-10 17:11:54,011:ERROR:Error retrieving reviews for product: Oud Turabi Synthetic at url: https://www.parfum.ae/oud-turabi-synthetic/
+2023-11-10 17:11:57,614:ERROR:Error retrieving reviews for product: Oud Laosi at url: https://www.parfum.ae/oud-laosi/
+2023-11-10 17:12:01,746:ERROR:Error retrieving reviews for product: Oud Muataq / Qadeem Synthetic at url: https://www.parfum.ae/oud-muataq-qadeem-synthetic/
+2023-11-10 17:12:05,897:ERROR:Error retrieving reviews for product: Black Oud Synthetic at url: https://www.parfum.ae/black-oud-synthetic/
+2023-11-10 17:12:09,916:ERROR:Error retrieving reviews for product: Oud Bormi Synthetic at url: https://www.parfum.ae/oud-bormi-synthetic/
+2023-11-10 17:12:13,733:ERROR:Error retrieving reviews for product: Oud Khalifa Synthetic at url: https://www.parfum.ae/oud-khalifa-synthetic/
+2023-11-10 17:12:17,228:ERROR:Error retrieving reviews for product: Oud Assami Synthetic at url: https://www.parfum.ae/oud-assami-synthetic/
+2023-11-10 17:12:21,176:ERROR:Error retrieving reviews for product: Oud Khas Synthetic at url: https://www.parfum.ae/oud-khas-synthetic/
+2023-11-10 17:12:24,996:ERROR:Error retrieving reviews for product: White Oud Synthetic at url: https://www.parfum.ae/white-oud-synthetic/
+2023-11-10 17:12:28,686:ERROR:Error retrieving reviews for product: Oud Trad Honey Synthetic at url: https://www.parfum.ae/oud-trad-honey-synthetic/
+2023-11-10 17:12:32,461:ERROR:Error retrieving reviews for product: White Oud Super Synthetic at url: https://www.parfum.ae/white-oud-super-synthetic/
+2023-11-10 17:12:33,848:INFO:Time taken to retrieve information for each product: 0:01:05.927636

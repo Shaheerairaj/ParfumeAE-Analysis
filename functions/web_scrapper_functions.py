@@ -93,8 +93,8 @@ def prod_info(prod_list_dict):
                 try:
                     prod_dict['name'] = s.select('.product-main__title')[0].text
                 except:
-                    prod_dict['title'] = None
-                    logging.error(f"Error retrieving title for product: {key} at url: {val}")
+                    prod_dict['name'] = None
+                    logging.error(f"Error retrieving name for product: {key} at url: {val}")
     
                 try:
                     prod_dict['stars'] = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
@@ -114,9 +114,9 @@ def prod_info(prod_list_dict):
                     prod_dict['price'] = None
                     logging.error(f"Error retrieving price for product: {key} at url: {val}")
     
-                try:
-                    if len(s.select('.hot__product.product-main__hot')) > 0: prod_dict['hot']=True
-                except:
+                if len(s.select('.hot__product.product-main__hot')) > 0:
+                    prod_dict['hot'] = True
+                else:
                     prod_dict['hot'] = False
 
                 try:
@@ -135,8 +135,8 @@ def prod_info(prod_list_dict):
                 try:
                     prod_dict['name'] = s.select('.title.page-title')[0].text
                 except:
-                    prod_dict['title'] = None
-                    logging.error(f"Error retrieving title for product: {key} at url: {val}")
+                    prod_dict['name'] = None
+                    logging.error(f"Error retrieving name for product: {key} at url: {val}")
     
                 try:
                     prod_dict['stars'] = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
@@ -156,9 +156,9 @@ def prod_info(prod_list_dict):
                     prod_dict['price'] = None
                     logging.error(f"Error retrieving price for product: {key} at url: {val}")
     
-                try:
-                    if len(s.select('.hot__product.product-main__hot')) > 0: prod_dict['hot']=True
-                except:
+                if len(s.select('.hot__product.product-main__hot')) > 0:
+                    prod_dict['hot'] = True
+                else:
                     prod_dict['hot'] = False
 
                 try:
