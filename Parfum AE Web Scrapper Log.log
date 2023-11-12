@@ -3963,3 +3963,31 @@
 2023-11-12 19:56:27,236:ERROR:Error retrieving id for product: Our Creation of Memo Paris' Mallorcan Almond Oud Fragrance Oil Reed Diffuser at url: https://www.parfum.ae/Memo-Paris-Mallorcan-Almond-Oud-Fragrance-Oil-Reed-Diffuser/
 2023-11-12 19:56:31,345:ERROR:Error retrieving id for product: Our Creation of D&G's Light Blue Fragrance Oil Reed Diffuser 100ml at url: https://www.parfum.ae/dgs-light-blue-fragrance-oil-reed-diffuser/
 2023-11-12 19:56:33,376:INFO:Time taken to retrieve information for each product: 2:47:36.941366
+2023-11-12 22:05:08,711:INFO:Time taken to retrieve list of all products: 0:07:18.235193
+2023-11-12 22:09:52,255:INFO:Time taken to retrieve list of all products: 0:01:32.085260
+2023-11-12 22:11:14,099:INFO:Time taken to retrieve list of all products: 0:00:11.266481
+2023-11-12 22:12:05,928:INFO:Time taken to retrieve list of all products: 0:00:41.678533
+2023-11-12 22:14:41,737:INFO:Time taken to retrieve list of all products: 0:00:43.889010
+2023-11-12 22:14:43,835:ERROR:Error retrieving id for product: Our Creation of  Floral Scents Set - Car Perfume Diffuser  at url: https://www.parfum.ae/car-diffuser-floral/
+2023-11-12 22:14:47,815:ERROR:Error retrieving id for product: Our Creation of Fresh Scents Set - Car Perfume Diffuser at url: https://www.parfum.ae/car-perfume-fresh/
+2023-11-12 22:14:51,596:ERROR:Error retrieving id for product: Our Creation of Oudy Scents Set - Car Perfume Diffuser at url: https://www.parfum.ae/car-perfume-oudy/
+2023-11-12 22:14:55,586:ERROR:Error retrieving id for product: Our Creation of Leather Scents Set - Car Perfume Diffuser at url: https://www.parfum.ae/car-perfume-leather/
+2023-11-12 22:14:59,635:ERROR:Error retrieving id for product: Our Creation of Aroma Diffuser 80ml - Dior's Sauvage at url: https://www.parfum.ae/aroma-diffuser-80ml-lv-ombre-nomad/
+2023-11-12 22:15:03,987:ERROR:Error retrieving id for product: Wild Deer Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/wild-deer-musk-oil-12ml-or-1-tola/
+2023-11-12 22:15:08,072:ERROR:Error retrieving id for product: Tahara Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/tahara-musk-oil-12ml-or-1-tola/
+2023-11-12 22:15:12,068:ERROR:Error retrieving id for product: Vanilla Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/vanilla-musk-oil-12ml-or-1-tola/
+2023-11-12 22:15:15,884:ERROR:Error retrieving id for product: Oud Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/oud-musk-oil-12ml-or-1-tola/
+2023-11-12 22:15:19,981:ERROR:Error retrieving id for product: Cherry Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/cherry-musk-oil-12ml-or-1-tola/
+2023-11-12 22:15:21,983:INFO:Time taken to retrieve information for each product: 0:00:40.245776
+2023-11-12 22:16:50,783:INFO:Time taken to retrieve list of all products: 0:00:34.233210
+2023-11-12 22:16:53,114:ERROR:Error retrieving id for product: Our Creation of  Floral Scents Set - Car Perfume Diffuser  at url: https://www.parfum.ae/car-diffuser-floral/
+2023-11-12 22:16:57,267:ERROR:Error retrieving id for product: Our Creation of Fresh Scents Set - Car Perfume Diffuser at url: https://www.parfum.ae/car-perfume-fresh/
+2023-11-12 22:17:01,481:ERROR:Error retrieving id for product: Our Creation of Oudy Scents Set - Car Perfume Diffuser at url: https://www.parfum.ae/car-perfume-oudy/
+2023-11-12 22:17:05,581:ERROR:Error retrieving id for product: Our Creation of Leather Scents Set - Car Perfume Diffuser at url: https://www.parfum.ae/car-perfume-leather/
+2023-11-12 22:17:09,275:ERROR:Error retrieving id for product: Our Creation of Aroma Diffuser 80ml - Dior's Sauvage at url: https://www.parfum.ae/aroma-diffuser-80ml-lv-ombre-nomad/
+2023-11-12 22:17:13,173:ERROR:Error retrieving id for product: Wild Deer Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/wild-deer-musk-oil-12ml-or-1-tola/
+2023-11-12 22:17:16,810:ERROR:Error retrieving id for product: Tahara Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/tahara-musk-oil-12ml-or-1-tola/
+2023-11-12 22:17:20,762:ERROR:Error retrieving id for product: Vanilla Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/vanilla-musk-oil-12ml-or-1-tola/
+2023-11-12 22:17:24,763:ERROR:Error retrieving id for product: Oud Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/oud-musk-oil-12ml-or-1-tola/
+2023-11-12 22:17:28,449:ERROR:Error retrieving id for product: Cherry Musk Oil (12ml or 1 Tola) at url: https://www.parfum.ae/cherry-musk-oil-12ml-or-1-tola/
+2023-11-12 22:17:30,387:INFO:Time taken to retrieve information for each product: 0:00:39.603181

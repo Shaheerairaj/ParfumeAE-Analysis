@@ -32,8 +32,18 @@ end_time = datetime.datetime.now()
 time_taken = end_time - start_time
 logging.info(f"Time taken to retrieve list of all products: {time_taken}")
 
+
+# Testing using only 5 items per category
+
+# temp_dict = {}
+# for key, prod in prod_list_dict.items():
+#     for i in range(0, 5):
+
+
 start_time = datetime.datetime.now()
 products = scrpr.prod_info(prod_list_dict)
 end_time = datetime.datetime.now()
 time_taken = end_time - start_time
 logging.info(f"Time taken to retrieve information for each product: {time_taken}")
+
+print(products)
