@@ -41,6 +41,7 @@ def prod_list(url):
 
     r = requests.get(url)
     s = bs4.BeautifulSoup(r.text, 'lxml')
+    counter = 0
 
     if len(s.select(".pagination")) >= 1:
         last_page = s.select('.pagination')[0].select(
@@ -57,17 +58,21 @@ def prod_list(url):
 
             for h3 in h3_elements:
                 prod_listing_dict[h3.text[1:]] = h3.find('a')['href']
+		counter+=1
+		print("prod_list running counter : ", counter)
 
     else:
         prod_listing_dict = {}
 
         r = requests.get(url)
         s = bs4.BeautifulSoup(r.text, 'lxml')
+	counter = 0
 
         h3_elements = s.select('.product__detail__list.mt-4 h3')
 
         for h3 in h3_elements:
             prod_listing_dict[h3.text[1:]] = h3.find('a')['href']
+	    print("prod_list ruinning counter: ", counter+=1)
 
     return prod_listing_dict
 
@@ -81,8 +86,10 @@ def prod_info(prod_list_dict):
         for key, val in prod_list.items():
             r = requests.get(val)
             s = bs4.BeautifulSoup(r.content, 'lxml')
+	    counter = 0
 
             if frag_type in ['Our Creations','Dahn Al Oud']:
+		print("prod_info running counter: ", counter+=1)
                 try:
                     id = s.select('[data-product_id]')[0].get('data-product_id')
                 except:
@@ -124,6 +131,7 @@ def prod_info(prod_list_dict):
                     logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
     
             else:
+		print("prod_info running counter: ", counter+=1)
                 try:
                     id = s.select('[data-product_id]')[0].get('data-product_id')
                 except:
