@@ -76,100 +76,96 @@ def prod_list(url):
 
 
 def prod_info(prod_list_dict):
-    products = {}
+    products = []
     for frag_type, prod_list in prod_list_dict.items():
         for key, val in prod_list.items():
             r = requests.get(val)
             s = bs4.BeautifulSoup(r.content, 'lxml')
-            prod_dict = {}
-    
+
             if frag_type in ['Our Creations','Dahn Al Oud']:
                 try:
                     id = s.select('[data-product_id]')[0].get('data-product_id')
-                    prod_dict['id'] = id
                 except:
-                    prod_dict['id'] = None
+                    id = None
                     logging.error(f"Error retrieving id for product: {key} at url: {val}")
                 try:
-                    prod_dict['name'] = s.select('.product-main__title')[0].text
+                    name = s.select('.product-main__title')[0].text
                 except:
-                    prod_dict['name'] = None
+                    name = None
                     logging.error(f"Error retrieving name for product: {key} at url: {val}")
     
                 try:
-                    prod_dict['stars'] = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
+                    stars= 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
                 except:
-                    prod_dict['stars'] = None
+                    stars = None
                     logging.error(f"Error retrieving stars for product: {key} at url: {val}")
     
                 try:
-                    prod_dict['reviews'] = int(s.select('div.stars__wrap')[0].select('a')[0].text.replace(' reviews',''))
+                    reviews_total = int(s.select('div.stars__wrap')[0].select('a')[0].text.replace(' reviews',''))
                 except:
-                    prod_dict['reviews'] = None
+                    reviews = None
                     logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
     
                 try:
-                    prod_dict['price'] = float(s.select('span.product-js-price')[1].text.replace('AED ',''))
+                    price = float(s.select('span.product-js-price')[1].text.replace('AED ',''))
                 except:
-                    prod_dict['price'] = None
+                    price = None
                     logging.error(f"Error retrieving price for product: {key} at url: {val}")
     
                 if len(s.select('.hot__product.product-main__hot')) > 0:
-                    prod_dict['hot'] = True
+                    hot = True
                 else:
-                    prod_dict['hot'] = False
+                    hot = False
 
                 try:
-                    prod_dict['reviews'] = product_reviews(id)
+                    reviews = product_reviews(id)
                 except:
-                    prod_dict['reviews'] = None
+                    reviews = None
                     logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
     
             else:
                 try:
                     id = s.select('[data-product_id]')[0].get('data-product_id')
-                    prod_dict['id'] = id
                 except:
-                    prod_dict['id'] = None
+                    id = None
                     logging.error(f"Error retrieving id for product: {key} at url: {val}")
                 try:
-                    prod_dict['name'] = s.select('.title.page-title')[0].text
+                    name = s.select('.title.page-title')[0].text
                 except:
-                    prod_dict['name'] = None
+                    name = None
                     logging.error(f"Error retrieving name for product: {key} at url: {val}")
     
                 try:
-                    prod_dict['stars'] = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
+                    stars = 5 - len(s.select('div.stars__wrap')[0].select(".fas.fa-star.graystar"))
                 except:
-                    prod_dict['stars'] = None
+                    stars = None
                     logging.error(f"Error retrieving stars for product: {key} at url: {val}")
     
                 try:
-                    prod_dict['reviews'] = int(s.select('div.review-links')[0].select('a')[0].text.replace(' reviews',''))
+                    reviews_total = int(s.select('div.review-links')[0].select('a')[0].text.replace(' reviews',''))
                 except:
-                    prod_dict['reviews'] = None
+                    reviews = None
                     logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
     
                 try:
-                    prod_dict['price'] = float(s.select('div.product-price')[0].text.replace('AED ',''))
+                    price = float(s.select('div.product-price')[0].text.replace('AED ',''))
                 except:
-                    prod_dict['price'] = None
+                    price = None
                     logging.error(f"Error retrieving price for product: {key} at url: {val}")
     
                 if len(s.select('.hot__product.product-main__hot')) > 0:
-                    prod_dict['hot'] = True
+                    hot = True
                 else:
-                    prod_dict['hot'] = False
-
+                    hot = False
                 try:
-                    prod_dict['reviews'] = product_reviews(id)
+                    reviews = product_reviews(id)
                 except:
-                    prod_dict['reviews'] = None
+                    reviews = None
                     logging.error(f"Error retrieving reviews for product: {key} at url: {val}")
                     
     
-            products[key] = prod_dict
-    
+            products.append([id,name, stars, price, reviews_total, price, hot, reviews])
+
     return products
 
 
